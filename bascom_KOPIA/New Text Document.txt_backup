@@ -1,0 +1,13 @@
+Print #1 , "dim=dim-5" ; Chr(&Hff) ; Chr(&Hff) ; Chr(&Hff); 'ustawienie sciemniania
+Print #1 , "t1.txt=" ; Chr(&H22) ; "Ello " ; Chr(&H22) ; Chr(&Hff) ; Chr(&Hff) ; Chr(&Hff);       'wyslanie textu
+
+Spacja - Wejscie Do Cwiartki Rs
+
+
+Pozniej L Do Wpisania Nr Startowego
+Albo
+P Do Wpisania Nr Startowego
+
+S - Inicjujue Start
+
+C - Anuluje Mierzenie

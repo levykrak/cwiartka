@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="971da480-7cd7-48dc-aa92-09b2fb6874a5" dbName="DragNote" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj4NCiAgPHBhcmFtZXRlcj4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0ic2VydmVyIiB2YWx1ZT0ibG9jYWxob3N0XHNxbGV4cHJlc3MiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9ImRhdGFiYXNlIiB2YWx1ZT0iRHJhZ05vdGUiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InVzZUludGVncmF0ZWRTZWN1cml0eSIgdmFsdWU9IkZhbHNlIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJ1c2VyaWQiIHZhbHVlPSJzYSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0icGFzc3dvcmQiIHZhbHVlPSJzYXNhIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJyZWFkIG9ubHkiIHZhbHVlPSIxIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJnZW5lcmF0ZUNvbm5lY3Rpb25IZWxwZXIiIHZhbHVlPSJ0cnVlIiAvPg0KICA8L3BhcmFtZXRlcj4NCjwvRGV2RXhwcmVzc1hwb0dlbmVyYXRvclNldHRpbmdzPg==" namespace="DragNoteApp.DragNote" connectionString="XpoProvider=MSSqlServer;data source=localhost\sqlexpress;user id=sa;password=sasa;initial catalog=DragNote;Persist Security Info=true" dataBaseShemaInfo="H4sIAAAAAAAEAO1a63PaOBD/3pn+DwyfK5BkW5Y6Dp0GkptM724yTXNz3xjJWqeeA5OzTR7319/amDchvEqatnwAtNqV97da7UMQfHjo92p3kGbxIDmpswatf2i9fROc6gyu8kGqb+AiiQY15Eqy9w9ZfFL/mue375vN+/v7xr3TGKQ3TU4pa/79x+9X4VfoaxInWa6TEOoTKfu8VB2fWqsFX7TpQVY8shyPKTOEMan2p+7DSb2Txqh9fTKJ05dp3Nfp4yd4rF1k10n87xD58nQIs1zI1x70hv0kmyMiOcvTOLlpxTZoVl/npJrLYkFz+shZ8qoHBJ3TEbk2+vjyeIvaXSS5w+sVpNjWUXFcq9IaBxcWkjzOJ5TmBmtelcqPF03wvV67iv/D78yjuywR6nS8wqYLzOFC+W4ymBdcac6LxMIDLNmtJFdrXX7qVju/do+f3OVn93m1agW1UmQOxLLGwfkghfgmwW3MZhAHzdJ5F3y5wNQa4akYSsqE6SwphQp8QbMaTCY7cVYQrm+tzqEV6V6GTPPECe9vw9he2JYII21MJIjgJiJupH2ihaOI8h1OHao5p2HQrJgnwpU55s7ik2ScKDCMJksjzwzn2NaB2xbgLEjfWiUMD4lWWhI3jBCkzxiJqNWRsqEbMmcJ5My274KzOGXHR+qFlEsRchIy6iNScIlRFt9MJF3KBLeRPjRSPMzHB2odIa2yQByPa+J6NiLa+j6hvqc85hkhjfwGQDFqHR8ri3iopIcIeeQR13GBSACHGA+EEaHwODcbY11FrSLNFrn27A6z0K9Uu02q3TRRdtANvsSF3GgNrKDSvJuXlF3kIbErpPfItqO9/2GSbQnnKLnW9x3pFNHYdQzGLOoboqUviKvwCHuaMa3h1edarVyHK8UJ9yUnrvUjIj3MutoaV4WhUh7lP0audf1QUCUlodKxiDRSREdCEBqBMgwrJ+mJQyOdBoPj46XWBWYoI1xxrKKkj/WUDj0SWUOpMco43uZpaEO84+B1fLRgjBCSFt4bFn4sBTHWY4QqFXqaSt+40ZGT7mcdwq+c++yaXVu1g7vIwii5bZRoB0Pcm7FsipuzTZaeE4bdHrmTFOTdRcFdi4F4Yuzuom+u8btZz6vE9y4FVqpW7uXOmsGoLji0YlhAlRq9gvppEcZ0qjYNA2WAWnX5tqmdd/CAudBXKoCfexhss8UKE05NsI1xlrqlTW2zvQ9+Z6YJmqv8aU01XpyNIxXjxrqahYQLrGFcqbCaAc2IAyzyPe0b4S9fILy2YlxSHVHBKMHKhWHHIYBoFVICWlhHYN2mzPLt3p4l28yRPvrtlwQwYEKipME99Q0jaAGPWFA+Z1p5YouabXO41Sk9eqdFmbDCEcQRWKa6XLtEgk+Jh82H41PtYBd2aLSTKuf4cAVwigeTE+rY4sYPW0zFjEscLoxyIi6sd/CrTXiBbWVcRjRSHuGgDXFd15S9M6G+AJBSMM8c3InTl3DfKLKcAvpr6GNsAiqJNI4iCNEBBVZLc3D3LWvfl4BKPcGckEgNlrhCGPyGPTSTEWPMcULp0SP3ktljZmN9k+p+9g1aymrp7lFbyzW/cnK5Qzd4i8uF8a3udYs+dWvxqQ0O3+RWv9JvJnn6mMPHNNWPE80gipM4X1pgjzvh7tifut02P6XeqWBn7XPqnbdP9+50nnGmvbqx60/d6TaPXGZPbWe95gl9p8yji8vv4hp8JiCsq7+rmLe+AB8F0PX1N61eZMXb+HXQ+nujS+LV8FZA3PzWdBece6a5eR/8KSDPBomfAnCVAn4StNOU9doBb1K+VeMpS1D8AQ/sZToIS2IV0oO/Rk7Q6sDd2cNtClnW6OhcN+6Y0+DvatX0STFqiAZ9V2sPe/kwhZMEhnmqe+9ql0PTi8PiemfwDyQnRkrLfM+1PqXgKmyoxo8on9fu6SyDrNiBz8OJdYOPFlXDHXqYpJqCdDWM5kifoT+4g0XGEXWRt60zaF0n4Ved3AAe6XI8Ms0qHbBsHdxCmscvrNsTagS/QQIpuld70O9j6ZdVGXKJPMfcgQwzOKTnMbrCgsT83Ns3QXPhb5qt/wFuekvUzykAAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="49a31091-4012-4416-8de7-ad9b666a56c1">
+      <comment Id="35493236-8e50-42b5-be10-d2407909c7b4" text="The 'PK_Driver' index is ignored, because 'id' is a key" name="DriverComment">
+        <subjects>
+          <commentReferencesSubjects Id="bbc83bad-0aa0-4663-a142-881e9cfb9d77">
+            <xpObjectMoniker Id="6cfabbf6-62bf-4fa7-a639-9732030a220c" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="0a5b179c-adae-43cd-8005-9b14ac57184d">
+      <comment Id="274c2722-eb68-4bf5-bd9b-a540007ed72c" text="The 'PK_Event' index is ignored, because 'id' is a key" name="EventComment">
+        <subjects>
+          <commentReferencesSubjects Id="519dd325-5312-4b97-8ab5-e914c989aec5">
+            <xpObjectMoniker Id="773839d4-43ba-407b-a876-496525a11aae" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="e5261690-8fb0-4411-9a93-1afb610f2563">
+      <comment Id="1f9819d9-e06b-45ca-b399-27e3854992a2" text="The 'PK_Race' index is ignored, because 'id' is a key" name="RaceComment">
+        <subjects>
+          <commentReferencesSubjects Id="22737829-2c10-4a2c-8282-467f130c3021">
+            <xpObjectMoniker Id="77bd4a1c-26c5-489c-aea1-3e1f75a7b678" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="47a99dd2-37d1-469f-ba21-7b35c5af52a3">
+      <xpObject Id="6cfabbf6-62bf-4fa7-a639-9732030a220c" name="Driver" baseClass="XPLiteObject" userFileName="Driver" designerFileName="Driver.Designer" className="Driver" virtualBaseClass="XPLiteObject" persistent="Driver" virtualName="Driver">
+        <fields>
+          <generalXpObjectHasFields Id="ea93ec94-4771-4372-9139-f05f188d6dc7">
+            <field Id="7dd96b2c-a9a8-4cf7-a711-f0daf9dc4c13" name="id" columnType="Int32" key="true" isIdentity="true" persistent="id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="965df8d2-7d00-4435-a97a-7048dee4c04a">
+            <field Id="5c0286c2-c107-4ce4-b9d4-bbf840162dfa" name="name" persistent="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="150" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fba73363-c438-4d42-9dad-9289125d98c4">
+            <field Id="d368d9de-352a-45df-ad77-0759515b68b8" name="car" persistent="car" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="83ef2ff9-f371-4d82-b522-551945aef523">
+            <field Id="1f2c985f-a2f5-434e-8ee3-b5e6b6c6522b" name="car_no" columnType="Int32" persistent="car_no" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="dce52215-9def-4074-b4e3-247c5921e175" sourceCollectionName="Races" name="RaceReferencesDriver" targetFieldName="id_driver">
+            <xpObjectMoniker Id="77bd4a1c-26c5-489c-aea1-3e1f75a7b678" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="11c0abad-7deb-4e69-ac77-1cb40190b8f2">
+            <collectionField Id="39583477-f4cd-4135-9172-27ab42754089" name="Races" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="b8b07a59-3072-4cfd-b642-dbc6f33e5a56">
+      <xpObject Id="773839d4-43ba-407b-a876-496525a11aae" name="Event" baseClass="XPLiteObject" userFileName="Event" designerFileName="Event.Designer" className="Event" virtualBaseClass="XPLiteObject" persistent="Event" virtualName="Event">
+        <fields>
+          <generalXpObjectHasFields Id="d2cf3792-6118-44d8-8b5e-7d4ed9d57cfc">
+            <field Id="a9432992-2782-4d7f-85a8-adb49cc99502" name="id" columnType="Int32" key="true" isIdentity="true" persistent="id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1b25fdf5-3aa6-4df5-908d-124fa176bb8f">
+            <field Id="47c60988-083d-4df9-af66-0fe9b1a22856" name="name" persistent="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="92913cdf-a4ef-46ba-a7b1-a9b3a02f613f">
+            <field Id="0d4e1b01-2928-487c-aac5-fdb00bb9b35b" name="start_time" columnType="DateTime" persistent="start_time" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="81990eba-1bdf-4854-b744-f9e6b559ae8b">
+            <field Id="ebb6680f-85c2-4d86-bd51-099c5a087b4f" name="end_time" columnType="DateTime" persistent="end_time" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="04779645-c257-45d9-aade-fb57965cc944" sourceCollectionName="Races" name="RaceReferencesEvent" targetFieldName="id_event">
+            <xpObjectMoniker Id="77bd4a1c-26c5-489c-aea1-3e1f75a7b678" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="20efe282-b927-4ef4-a53d-f8a67feba974">
+            <collectionField Id="5f7483e2-d18f-4d62-9e84-5326ecff8ee2" name="Races" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="7ca0156c-66ba-4f53-a666-5a1306d6493e">
+      <xpObject Id="77bd4a1c-26c5-489c-aea1-3e1f75a7b678" name="Race" baseClass="XPLiteObject" userFileName="Race" designerFileName="Race.Designer" className="Race" virtualBaseClass="XPLiteObject" persistent="Race" virtualName="Race">
+        <fields>
+          <generalXpObjectHasFields Id="fb6ba809-49c7-4042-bb67-c03f6d665906">
+            <field Id="80af0610-d511-406e-a9c0-ea6d36db09bc" name="id" columnType="Int32" key="true" isIdentity="true" persistent="id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f2ab22b1-8c3e-4a30-bc23-bd495b18bb5a">
+            <field Id="58eebebc-98b5-47b1-80a5-de9721a9564f" name="id_driver" columnType="Int32" persistent="id_driver" virtualColumnType="Driver" logicalType="Driver" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="126bbc9d-53f1-4bd4-8ec3-99470b4415e7">
+            <field Id="a016d636-360f-42a4-8e70-5b1a370a3992" name="id_event" columnType="Int32" persistent="id_event" virtualColumnType="Event" logicalType="Event" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="24ec15cf-37d0-408b-9323-bd593f598c2e">
+            <field Id="6e2075a2-03da-4592-91b4-326b93f26d5a" name="race_time" columnType="Double" persistent="race_time" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="87b1e0ba-2f17-4600-96dd-a3ab1c27eb4c">
+            <field Id="128f0f95-2eab-444b-adb4-076ee88615bf" name="et" columnType="Double" persistent="et" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="65200a7f-89e9-4e4b-be06-8da671e02941">
+            <field Id="affd20e0-5c71-4e08-8b39-8863e9eda8b2" name="rt" columnType="Double" persistent="rt" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="899b69e9-cfb1-4aaa-8496-11aed979303c">
+            <field Id="af05613c-8aed-466b-8a28-18f11133c850" name="et_rt" columnType="Double" persistent="et_rt" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

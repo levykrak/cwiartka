@@ -1,0 +1,9 @@
+po zlocie 13.05.2019
+- podlaczenie do kompa i obsluge z kompa, wyniki w chmure, zapis do bazy danych
+- !!! opoznienie dla rejestracji przeciecia, do przeliczenia dla obiektu 250km/h * opona
+- d³u¿sze kable
+- stage i prestage
+- skaner bezprzewodowy dla zawodnikow
+- poprawic schemat dla mosfetow
+- predkosc ? - dodatkowe bramki? ostatnie 20 metrow
+- moze bez przewodow ?

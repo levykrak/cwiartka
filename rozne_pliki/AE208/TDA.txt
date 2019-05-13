@@ -1,0 +1,284 @@
+TDA1010A|23,90z³|Wzmacniacz audio 6W
+TDA1011|29,90z³|Wzmacniacz audio 4W
+TDA1013A|6,99z³|Wzmacniacz audio 4W
+TDA1013B|3,79z³|Wzmacniacz audio 4W
+TDA1020|5,60z³|Wzmacniacz mocy audio 12W
+TDA1022|21,90z³|Shift regulator 512x
+TDA1029|7,20z³|Wzmacniacz operacyjny Dual (AF Select)
+TDA1054M|13,90z³|Wzmacniacz Play/Rec.
+TDA1072A|7,99z³|AM Receiver
+TDA1074A|18,90z³|Dual Tandem Elec.PTM
+TDA1083|3,29z³|Wzmacniacz audio AM FM
+TDA1085C|5,69z³|Universal Motor Control
+TDA1151|32,90z³|Motor Speed Regulator
+TDA1170D|12,90z³|Low Noise TV Vert. Deflection
+TDA1170N|2,19z³|Vertical Deflection
+TDA1170S|3,19z³|Vertical Deflection
+TDA1175P|7,99z³|Vertical Deflection Comp.VDU
+TDA1308|6,29z³|Class AB Stereo Headphone
+TDA1514A|79,90z³|Wzmacniacz NF 27,5V 42W
+TDA1515B|15,90z³|Wzmacniacz Audio BTL 24W
+TDA1516BQ|9,99z³|Wzmacniacz mocy Stereo
+TDA1517|3,39z³|Wzmacniacz mocy 2x6W
+TDA1518|13,90z³|Wzmacniacz mocy 2x11W
+TDA1519|5,99z³|Wzmacniacz mocy 2x6W
+TDA1519A|13,40z³|Wzmacniacz mocy 2x11W
+TDA1519B|9,99z³|Wzmacniacz mocy 2x6W
+TDA1521|31,90z³|Wzmacniacz mocy 2x12W HiFi
+TDA1521A|6,99z³|Wzmacniacz mocy 2x6W HiFi
+TDA1524A|12,50z³|Stereo Tone/Volume Control
+TDA1526|13,90z³|Stereo Tone/Volume Control
+TDA1543|6,59z³|Przetwornik D/A Dual 16bit Economy
+TDA1543A|6,29z³|Przetwornik D/A Dual 16bit Economy
+TDA1545AT|8,49z³|Przetwornik D/A Audio
+TDA1552Q|15,90z³|Wzmacniacz 2x20W
+TDA1554Q|10,90z³|Wzmacniacz Bridge Audio|
+TDA1556Q|24,90z³|Wzmacniacz PWR 2x22W/4R/18V
+TDA1557Q|6,49z³|Wzmacniacz PWR 2x22W BTL Audio
+TDA1558Q|8,99z³|Wzmacniacz Dual Channel Audio
+TDA1560Q|19,90z³|Wzmacniacz mocy 40W 14,4V
+TDA1562Q|23,90z³|Wzmacniacz mocy 70W 4R
+TDA1591|8,99z³|PLL Stereo DEC + Noise CAN
+TDA1596|4,39z³|Wzmacniacz/Detector FM/IF
+TDA1675A|8,99z³|Veritcal Sync + Oscill
+TDA16833|12,90z³|SMPS Controller 100kHz 30W Out
+TDA16846|3,29z³|Power Factor Controller
+TDA1771|4,79z³|Vertical Defection I.C.
+TDA1904|4,49z³|Wzmacniacz 4W Audio
+TDA1905|4,69z³|Wzmacniacz 6W Audio + Multing
+TDA2002V|6,59z³|Wzmacniacz 8W Audio
+TDA2003V|1,99z³|Wzmacniacz 10W Audio
+TDA2004|3,59z³|Wzmacniacz 2x10W Stereo
+TDA2005M|9,99z³|Wzmacniacz 2x10W Bridge
+TDA2006|3,79z³|Wzmacniacz 12W Audio
+TDA2007|4,99z³|Wzmacniacz 6+6W Audio
+TDA2008|7,69z³|Wzmacniacz 12W Audio
+TDA2009A|4,99z³|Wzmacniacz 2x11W Stereo
+TDA2020|14,90z³|Wzmacniacz mocy 20W Audio
+TDA2030|2,79z³|Wzmacniacz 18W
+TDA2040|6,59z³|Wzmacniacz 22W Audio
+TDA2050|2,59z³|Wzmacniacz 25W HiFi Audio
+TDA2051|8,99z³|Uk³ad scalony HiFi 25V 6A 40W
+TDA2052|8,49z³|Wzmacniacz mocy 65W
+TDA2320|3,99z³|Wzmacniacz PRE Stereo
+TDA2460|3,99z³|TV AM/FM Multistanda.
+TDA2530|36,90z³|CTV-RGB Matrix
+TDA2532|3,39z³|TV RGB Matrix
+TDA2541|5,29z³|Wzmacniacz IF/Demod.(PNP)
+TDA2545A|7,99z³|Quasi-Split Sound Circuit
+TDA2549|8,99z³|Wzmacniacz IF+Demod. For TV
+TDA2556|11,30³|Quasi-Split Sount Circuit
+TDA2579|26,90z³|Synchr. Circuit (625 lines)
+TDA2581Q|7,99z|Control Circuit for SMPS
+TDA2595|32,90z³|Hor.Comb.+Transm.+Prot.
+TDA2611A|2,89z³|Wzmacniacz mocy 5W Audio
+TDA2614|4,49z³|Wzmacniacz PWR 1x6W
+TDA2616|6,69z³|Wzmacniacz PWR 2x10W
+TDA2822|7,59z³|Wzmacniacz PWR 1W Low Voltage
+TDA2822M|1,59z³|Wzmacniacz 1W Low Voltage
+TDA3504|22,90z³|Video Control Combination
+TDA3505|11,90z³|Video Control Combination
+TDA3514A|24,90z³|TV PAL Decoder
+TDA3541|23,90z³|Wzmacniacz IF+Demod. (PNP)
+TDA3561A|24,90z³|TV PAL Decoder
+TDA3590A|24,90z³|TV SECAM/PAL Transcoder
+TDA3602|7,99z³|Regulator napiêcia Multiple Output
+TDA3650|109,00z³|CTV,VA-O,VA-E
+TDA3653C|49,90z³|Vertical Deflection+Guard
+TDA3654|49,90z³|Vertical Deflection+Guard
+TDA3654Q|17,90z³|Vertical Deflection+Guard
+TDA3803A|6,49z³|Stereo/Dual Sound Decoder
+TDA3810|7,99z³|Stereo/Pseudo Stereo
+TDA3856|12,30z³|VCR Quasi-Split Sound
+TDA3857|6,99z³|VCR Quasi Sound Processor
+TDA4292|34,90z³|TV Control Volume
+TDA4420|7,99z³|Colour TV Video IF
+TDA4439|36,90z³|TV Video ZF
+TDA4442|2,99z³|IF Syst.+AFC
+TDA4443|29,90z³|Multi.If Syst.+AGC
+TDA4453|5,29z³|Wzmacniacz TV-Video Multistand.
+TDA4500|16,90z³|Signal Comb. B/W TV
+TDA4504B|26,90z³|TV/CVT Signal Processor
+TDA4505E|65,90z³|TV Signal/Sound Processor
+TDA4555|8,99z³|TV PAL/SECAM/NTSC Decoder
+TDA4556|9,99z³|TV PAL/SECAM/NTSC Decoder
+TDA4565|4,39z³|Colour Transient Circiut
+TDA4601|25,90z³|TV Swich Mode PS
+TDA4601D|9,99z³|Control IC For
+TDA4605|4,99z³|SMPS Controller IC 20kHz (MOS)
+TDA4605-2|3,89z³|SMPS Controller IC 20kHz (MOS)
+TDA4605-3|3,49z³|SMPS Controller IC 20kHz (MOS)
+TDA4610|21,90z³|Zamiennik uk³adu SC.
+TDA4650|23,90z³|CTV PAL/SECAM
+TDA4661|7,59z³|VCR CMOS Delay Line
+TDA4665|4,99z³|TV Delay Line
+TDA4680|32,90z³|Video Controller
+TDA4685|13,90z³|Video/Audio Switch
+TDA4687|15,90z³|Video Processor
+TDA4780|11,50z³|Video Processor
+TDA4800|9,99z³|Vertical Deflection Circuit
+TDA4850|21,90z³|Hor/Vertical Control For Monitor
+TDA4851|18,90z³|Hor/Vertical Control For Monitor
+TDA4852|9,90z³|Hor/Vertical Control For Monitor
+TDA4854|32,90z³|Monitor H/V Processor
+TDA4855|23,90z³|Autoproc. odchylenia
+TDA4856|14,90z³|Vertical/Hor.Deflection Processor
+TDA4858|11,90z³|Econ Autosync Deflection CTRL
+TDA4860|5,99z³|Wzmacniacz Single Video
+TDA4861|10,90z³|Wzmacniacz Vertical Deflection Power
+TDA4866|6,39z³|Vertical Driver For Monitor
+TDA4881|4,99z³|ADV. Video Monitor Control
+TDA4882|12,50z³|CRT/Video Controller
+TDA4886|5,39z³|Wzmacniacz RGB PRE 140MHz 3.2ns
+TDA4950|13,90z³|E/W Parabol.Square CRT
+TDA5051AT|20,90z³|Home Automation Modem
+TDA5330T|15,90z³|VHF/UHF/Hyp/ Mixer/Oscilator
+TDA5331T|7,99z³|Terresstr. Tuner M/O
+TDA5660P|18,90z³|Sound Signal Mod.
+TDA6101Q|4,19z³|Wzmacniacz Video 8MHz
+TDA6103Q|7,49z³|Wzmacniacz Video SIP9
+TDA6106Q|4,29z³|Wzmacniacz Video Output
+TDA6107Q|4,99z³|Wzmacniacz Video 3x4.5MHz
+TDA6108JF|9,99z³|Wzmacniacz RGB DBS9MPF
+TDA6111Q|6,99z³|Wzmacniacz Video Output
+TDA6160-2X|22,90z³|Multistandard Sound IF
+TDA6610-2|14,90z³|TV-Stereo Sound Processor
+TDA6612-SIE|32,90z³|Chip Stereo Processor
+TDA7000|7,99z³|Mono FM Radio Circuit
+TDA7021T|6,49z³|Stereo/Mono FM Circuit
+TDA7040T|4,69z³|PLL Stereo Decoder
+TDA7050|3,39z³|Wzmacniacz mocy Low Voltage
+TDA7050T|2,79z³|Wzmacniacz 2x75mW Audio
+TDA7052|2,79z³|Wzmacniacz 1W BTL Mono Audio
+TDA7052A|3,89z³|Wzmacniacz mocy Audio
+TDA7053A|2,99z³|2x0.5 W BTL stereo audio power amp
+TDA7056|5,29z³|Wzmacniacz mocy 3W BTL
+TDA7056A|3,99z³|Wzmacniacz 3W Mono BTL Audio
+TDA7056B|5,59z³|Wzmacniacz 3W Mono BTL Audio
+TDA7057AQ|4,69z³|Wzmacniacz mocy 2x5W
+TDA7057Q|9,99z³|Wzmacniacz Audio
+TDA7073A|4,39z³|Dual Power Driver
+TDA7073AT|9,99z³|Dual Power Driver
+TDA7088T|3,79z³|Odbiornik AM/FM
+TDA7231|2,79z³|Wzmacniacz 1.6W Low Voltage
+TDA7233|2,69z³|Muting I.C. 16V IA 1.6W
+TDA7240|6,99z³|Wzmacniacz 20W Bridge
+TDA7245|5,69z³|Wzmacniacz 5W Audio+Mute
+TDA7245A|6,29z³|Wzmacniacz PWR 5W
+TDA7250|19,90z³|15 TO 80W Stereo Driver
+TDA7253|5,99z³|Wzmacniacz PWR 8W
+TDA7261|15,90z³|Wzmacniacz audio 1x25W
+TDA7262|13,90z³|Wzmacniacz PWR 2x20W 80kHz
+TDA7263|6,69z³|Wzmacniacz PWR 2x12W
+TDA7264|8,99z³|Wzmacniacz audio
+TDA7265|7,39z³|Wzmacniacz PWR 2x25W+Mute
+TDA7266|8,49z³|Wzmacniacz 7+7W Dual Bridge
+TDA7267|3,39z³|Wzmacniacz 2W Mono
+TDA7275A|4,49z³|1.5A Motor Spedd Reg.
+TDA7293V|13,90z³|Wzmacniacz 100W Mono 120V
+TDA7294V|12,90z³|Wzmacniacz PWR 100W MOS
+TDA7295|15,40z³|Wzmacniacz 80V-80W Audio
+TDA7296|7,99z³|Wzmacniacz 60V-60W DMOS Audio
+TDA7317|7,59z³|Graphic Equalizer
+TDA7318|25,90z³|Digital Stereo Audio PROC.
+TDA7318D|29,90z³|Digital-CTRL Stereo Audio
+TDA7330B|8,59z³|Radio I.C.Consumer AM/FM
+TDA7350|25,90z³|Wzmacniacz Bridge Stereo
+TDA7365|8,99z³|Wzmacniacz Dual Channel Audio
+TDA7370|8,99z³|Wzmacniacz mocy Quad+Clip.Det.
+TDA7372A|17,90z³|Wzmacniacz PWR 4x6W For Car
+TDA7374V|18,90z³|Wzmacniacz 2x17W Audio
+TDA7375V|22,90z³|Wzmacniacz 4x11/2x25W
+TDA7377-E|7,59z³|Wzmacniacz mocy
+TDA7381|21,90z³|Wzmacniacz PWR 4x18W Car Audio
+TDA7384|18,90z³|4 x 35W quad bridge car radio amplifier
+TDA7384A|10,90z³|Wzmacniacz PWR 4x25W
+TDA7385|18,90z³|Wzmacniacz Four Channel Audio
+TDA7386|21,90z³|Wzmacniacz mocy 4x28W
+TDA7394|15,90z³|Wzmacniacz PWR 2x30W/4E
+TDA7396|34,90z³|Wzmacniacz mocy 1x45W
+TDA7431|15,90z³|Digital Controller Audio Processor
+TDA7439|13,90z³|Three Bands Digital CTR.
+TDA7454|27,90z³|Wzmacniacz PWR 4\x40W/4E
+TDA7480|10,30z³|Wzmacniacz Single Audio
+TDA7495|8,99z³|Wzmacniacz 2x11W DC Voltage
+TDA7560|31,90z³|Wzmacniacz 4x45W Car
+TDA8137|4,99z³|Regulator napiêcia Dual Spec Funct
+TDA8138|7,99z³|Video Rec.Reset Disable
+TDA8138A|4,99z³|Regulator 1A 5.1+12V+Disable
+TDA8139|3,99z³|Reg.napiêcia 750mA 5.1V+Adj.+Dis Rst
+TDA8140|89,90z³|Deflection Power Trans.Driver
+TDA8145|11,90z³|Play/Rec Parabolic
+TDA8146|5,29z³|TV Eest-West Correction
+TDA8170|14,90z³|TV Power Output
+TDA8171|39,90z³|Wzmacniacz Voltage-Deflection 40V 2.5A
+TDA8172|2,79z³|TV Power Output = STV8172A
+TDA8174|5,59z³|TV Vertical Deflection
+TDA8174AW|5,49z³|Vertical Deflection
+TDA8177|5,99z³|Wzm.Voltage-Deflection 40V 2,5A
+TDA8177F|14,90z³|Power Output Color TV, Mon.
+TDA8190|13,90z³|Compl.Channel+DC Control
+TDA8192|8,49z³|TV Sound Channel
+TDA8196|3,29z³|Switch DC Volume Control
+TDA8215B|9,90z³|H/V Deflection
+TDA8304|19,90z³|Multi Standard Combinat.
+TDA8305A|41,90z³|Signal Combinat.CTV
+TDA8341|5,49z³|Wzmacniacz TV IF+Demod.
+TDA8350Q|9,59z³|DC-Coupled Vertical Deflection
+TDA8351|10,90z³|Odchylenie pionowe
+TDA8362AN3|52,90z³|One Chip TV System
+TDA8362B|56,90z³|Multistandard CTV
+TDA8362N5|72,90z³|Chip Multistandard CTV
+TDA8366N3|159,00z³|Multistandard CTV
+TDA8370|36,90z³|Synchro Processor
+TDA8374A|79,90z³|Bus Control 1-Chip TV Multi.
+TDA8375A|124,00z³|Bus Control 1-Chip TV
+TDA8375AH|64,90z³|PAL/NTSC Signal Procesor
+TDA8376|39,90z³|Multistandard 1-Chip TV
+TDA8380|16,40z³|TV SMPS Controller
+TDA8385|69,90z³|SMPS Controller
+TDA8395|9,90z³|CTV, SECAM - Decoder
+TDA8405|24,90z³|Stereo/Dual Sound Processor
+TDA8415|10,90z³|TV/Video Stereo/Dual Processor
+TDA8417|10,90z³|TV, VCR Sound Processor
+TDA8425|13,30z³|Sound Processor Spatial/Pseud.
+TDA8432|7,99z³|CCT Vertical Deflection Proces.
+TDA8440|9,49z³|Video/Audio Switch
+TDA8443|16,90z³|RGB/YUB Switch
+TDA8444|9,90z³|Przetwornik D/A 8x6bit IIC-Bus
+TDA8451|12,90z³|P2CCD Delay Line+Matrix
+TDA8435|27,90z³|P2CCD Filter Comb.
+TDA8501|14,90z³|PAL/NTSC Decoder
+TDA8510J|14,90z³|Wzmacniacz mocy 26W BTL 2x13W
+TDA8511J|18,90z³|Wzmacniacz mocy 4x13W Single-Ended
+TDA8551|4,69z³|Wzmacniacz 1W BTL Digital Vol.Con.
+TDA8560Q|15,90z³|Car Audio 2x40W
+TDA8561Q|13,90z³|4 Channel Audio
+TDA8563Q|15,90z³|Wzmacniacz PWR 2x40W/2E BTL
+TDA8566Q|33,90z³|Wzmacniacz PWR 2x25W/4E
+TDA8567Q|19,90z³|Wzmacniacz PWR 4x16W/4E
+TDA8568Q|21,90z³|wzmacniacz PWR 4x16W 14.4V
+TDA8569|27,90z³|Wzmacniacz PWR 4x25W/4R 18V
+TDA8571J|10,90z³|Wzmacniacz mocy 4x40W
+TDA8702|9,90z³|Przetwornik D/A 16P
+TDA8703|38,90z³|Przetwornik A/D
+TDA8708|29,90z³|Video Analog Input Inter.
+TDA8735|12,90z³|PLL Frequency Synthes.
+TDA8741|18,90z³|Sound Circ.+Noise Reduc.
+TDA8840|27,90z³|I2C Control TV Signal Proc.
+TDA8842|35,90z³|I2C PLA/NTSC/ SECAM TV
+TDA8843|32,90z³|i2c bus pal/ntsc/secam
+TDA8844|38,90z³|i2c bus pal/secam/ntsc
+TDA9102C|7,99z³|H/V Deflection Processor For Monit.
+TDA9103|19,90z³|H/V Deflection Processor
+TDA9143|30,90z³|PAL+Multistandard Decoder
+TDA9151|30,90z³|L Processor/Deflector
+TDA9160A|12,50z³|Color Decoder Circuit
+TDA9210|7,49z³|Pixel Video Controller 150MHz
+TDA9302H|3,69z³|Wzmacniacz Vertical-Deflec.35V 1.8A
+TDA9535|6,49z³|Wzmacniacz Video 3x Hi Volt 9.5ns
+TDA9800|6,29z³|Chroma/Demod./Separat.
+TDA9806|12,90z³|VIF-PLL And FM-PLL Demodu.
+TDA9817|16,90z³|VIF/SIF PLL Processor
+TDA8940|9,49z³|TV Stereo\Dual Sound Pro.
+TDA9860|12,30z³|TV/Video Sound Circuit

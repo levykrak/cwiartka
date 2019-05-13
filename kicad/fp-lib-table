@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name cwiartka)(type KiCad)(uri "C:/Users/levyk/Dysk Google/cwiartka/")(options "")(descr ""))
+  (lib (name cwiartka_laptop)(type KiCad)(uri "C:/Users/levy/Google Drive/cwiartka/kicad")(options "")(descr ""))
+)

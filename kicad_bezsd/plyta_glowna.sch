@@ -1,0 +1,1712 @@
+EESchema Schematic File Version 4
+LIBS:plyta_glowna-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	4490 2230 4490 830 
+Wire Wire Line
+	3440 1830 3540 1830
+Connection ~ 2890 1830
+Connection ~ 3940 1430
+Connection ~ 2340 1430
+Connection ~ 3540 1430
+Wire Wire Line
+	3840 1430 3840 1330
+Connection ~ 3840 1430
+Wire Wire Line
+	2890 2080 2890 1830
+Connection ~ 2340 1830
+Wire Wire Line
+	3940 1830 4040 1830
+Wire Wire Line
+	4040 2080 4040 1830
+Connection ~ 4040 1830
+Wire Wire Line
+	3290 1430 3540 1430
+Wire Notes Line
+	4490 830  740  830 
+Wire Notes Line
+	740  830  740  2230
+Connection ~ 11610 1730
+Wire Wire Line
+	11760 1730 11610 1730
+Connection ~ 9060 1680
+Wire Wire Line
+	9160 1680 9060 1680
+Wire Wire Line
+	9160 1680 9160 2030
+Connection ~ 10960 1730
+Wire Wire Line
+	10960 2180 10960 1730
+Connection ~ 8710 1880
+Wire Wire Line
+	8710 1680 8710 1880
+Wire Wire Line
+	9060 1680 9060 1580
+Wire Wire Line
+	13210 2680 13210 3130
+Wire Wire Line
+	13210 3130 11660 3130
+Wire Wire Line
+	11660 3130 11660 2230
+Wire Wire Line
+	11660 1880 11110 1880
+Wire Wire Line
+	8560 1880 8710 1880
+Wire Wire Line
+	8760 1880 8760 2880
+Wire Wire Line
+	8760 2880 13010 2880
+Wire Wire Line
+	13010 2880 13010 2680
+Connection ~ 9460 1880
+Wire Wire Line
+	9460 1730 9460 1880
+Connection ~ 9960 2180
+Wire Wire Line
+	9460 2180 9960 2180
+Wire Wire Line
+	10460 1530 10460 1580
+Wire Wire Line
+	10460 2180 10460 2030
+Wire Wire Line
+	9960 2180 9960 2280
+Connection ~ 9460 2030
+Connection ~ 7560 2030
+Wire Wire Line
+	8060 2180 8060 2280
+Wire Wire Line
+	8560 2030 8560 2180
+Wire Wire Line
+	8560 1530 8560 1580
+Wire Wire Line
+	8560 2180 8510 2180
+Connection ~ 8060 2180
+Wire Wire Line
+	7560 2180 7560 2030
+Connection ~ 7560 1880
+Wire Wire Line
+	9460 1580 9460 1280
+Wire Wire Line
+	8560 1730 9010 1730
+Wire Wire Line
+	9010 1730 9010 2530
+Wire Wire Line
+	9010 2980 13110 2980
+Wire Wire Line
+	13110 2980 13110 2680
+Wire Wire Line
+	13310 2680 13310 3180
+Wire Wire Line
+	13310 3180 11610 3180
+Wire Wire Line
+	11610 3180 11610 1730
+Wire Wire Line
+	8510 2980 8510 2180
+Connection ~ 8510 2180
+Wire Wire Line
+	10960 1580 11110 1580
+Wire Wire Line
+	11110 1580 11110 1880
+Connection ~ 11110 1880
+Wire Wire Line
+	9160 2530 9010 2530
+Connection ~ 9010 2530
+Wire Wire Line
+	11760 2230 11660 2230
+Connection ~ 11660 2230
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR01
+U 1 1 520623A7
+P 13710 980
+F 0 "#PWR01" H 13710 980 30  0001 C CNN
+F 1 "GND" H 13710 910 30  0001 C CNN
+F 2 "" H 13710 980 60  0001 C CNN
+F 3 "" H 13710 980 60  0001 C CNN
+	1    13710 980 
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:SN75176 U6
+U 1 1 52035DB6
+P 8010 1780
+F 0 "U6" H 8060 1830 60  0001 C CNN
+F 1 "SN75176_lewa" H 8060 2180 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 8010 1780 60  0001 C CNN
+F 3 "" H 8010 1780 60  0001 C CNN
+	1    8010 1780
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 52035DB5
+P 8560 1530
+F 0 "#PWR02" H 8560 1620 20  0001 C CNN
+F 1 "+5V" H 8560 1620 30  0000 C CNN
+F 2 "" H 8560 1530 60  0001 C CNN
+F 3 "" H 8560 1530 60  0001 C CNN
+	1    8560 1530
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR03
+U 1 1 52035DB4
+P 8060 2280
+F 0 "#PWR03" H 8060 2280 30  0001 C CNN
+F 1 "GND" H 8060 2210 30  0001 C CNN
+F 2 "" H 8060 2280 60  0001 C CNN
+F 3 "" H 8060 2280 60  0001 C CNN
+	1    8060 2280
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR04
+U 1 1 52035DB3
+P 9960 2280
+F 0 "#PWR04" H 9960 2280 30  0001 C CNN
+F 1 "GND" H 9960 2210 30  0001 C CNN
+F 2 "" H 9960 2280 60  0001 C CNN
+F 3 "" H 9960 2280 60  0001 C CNN
+	1    9960 2280
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 52035DB2
+P 10460 1530
+F 0 "#PWR05" H 10460 1620 20  0001 C CNN
+F 1 "+5V" H 10460 1620 30  0000 C CNN
+F 2 "" H 10460 1530 60  0001 C CNN
+F 3 "" H 10460 1530 60  0001 C CNN
+	1    10460 1530
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:SN75176 U7
+U 1 1 52035DB1
+P 9910 1780
+F 0 "U7" H 9960 1830 60  0001 C CNN
+F 1 "SN75176_prawa" H 9960 2180 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 9910 1780 60  0001 C CNN
+F 3 "" H 9910 1780 60  0001 C CNN
+	1    9910 1780
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR07
+U 1 1 52035DAF
+P 13410 2680
+F 0 "#PWR07" H 13410 2680 30  0001 C CNN
+F 1 "GND" H 13410 2610 30  0001 C CNN
+F 2 "" H 13410 2680 60  0001 C CNN
+F 3 "" H 13410 2680 60  0001 C CNN
+	1    13410 2680
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R17
+U 1 1 52035DAE
+P 8810 1580
+F 0 "R17" V 8890 1580 50  0000 C CNN
+F 1 "470" V 8810 1580 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 8810 1580 60  0001 C CNN
+F 3 "" H 8810 1580 60  0001 C CNN
+	1    8810 1580
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R16
+U 1 1 52035DAD
+P 8760 2980
+F 0 "R16" V 8840 2980 50  0000 C CNN
+F 1 "470" V 8760 2980 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 8760 2980 60  0001 C CNN
+F 3 "" H 8760 2980 60  0001 C CNN
+	1    8760 2980
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R20
+U 1 1 52035DAC
+P 10710 1580
+F 0 "R20" V 10790 1580 50  0000 C CNN
+F 1 "470" V 10710 1580 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 10710 1580 60  0001 C CNN
+F 3 "" H 10710 1580 60  0001 C CNN
+	1    10710 1580
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R21
+U 1 1 52035DAB
+P 10710 2180
+F 0 "R21" V 10790 2180 50  0000 C CNN
+F 1 "470" V 10710 2180 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 10710 2180 60  0001 C CNN
+F 3 "" H 10710 2180 60  0001 C CNN
+	1    10710 2180
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R18
+U 1 1 52035DAA
+P 9160 2280
+F 0 "R18" V 9240 2280 50  0000 C CNN
+F 1 "100" V 9160 2280 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 9160 2280 60  0001 C CNN
+F 3 "" H 9160 2280 60  0001 C CNN
+	1    9160 2280
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R22
+U 1 1 52035DA9
+P 11760 1980
+F 0 "R22" V 11840 1980 50  0000 C CNN
+F 1 "100" V 11760 1980 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 11760 1980 60  0001 C CNN
+F 3 "" H 11760 1980 60  0001 C CNN
+	1    11760 1980
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:RJ45-TRANSFO-RESCUE-plyta_glowna J3
+U 1 1 52035DA8
+P 13310 1580
+F 0 "J3" H 13410 2180 60  0000 L CNN
+F 1 "start_conn" H 13260 2180 60  0000 R CNN
+F 2 "Connect:RJHSE538X" H 13310 1580 60  0001 C CNN
+F 3 "" H 13310 1580 60  0001 C CNN
+	1    13310 1580
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 12910 2680
+NoConn ~ 13510 2680
+NoConn ~ 13610 2680
+NoConn ~ 13710 2680
+NoConn ~ 13810 2680
+$Comp
+L power:+12V #PWR08
+U 1 1 51AC510C
+P 1225 1590
+F 0 "#PWR08" H 1225 1540 20  0001 C CNN
+F 1 "+12V" H 1225 1690 30  0000 C CNN
+F 2 "" H 1225 1590 60  0001 C CNN
+F 3 "" H 1225 1590 60  0001 C CNN
+	1    1225 1590
+	1    0    0    -1  
+$EndComp
+Text Notes 2490 1030 0    60   ~ 0
+Zasilanie
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR09
+U 1 1 50F19057
+P 4040 2080
+F 0 "#PWR09" H 4040 2080 30  0001 C CNN
+F 1 "GND" H 4040 2010 30  0001 C CNN
+F 2 "" H 4040 2080 60  0001 C CNN
+F 3 "" H 4040 2080 60  0001 C CNN
+	1    4040 2080
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR010
+U 1 1 50F18FA6
+P 3840 1330
+F 0 "#PWR010" H 3840 1420 20  0001 C CNN
+F 1 "+5V" H 3840 1420 30  0000 C CNN
+F 2 "" H 3840 1330 60  0001 C CNN
+F 3 "" H 3840 1330 60  0001 C CNN
+	1    3840 1330
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR011
+U 1 1 50F18FA2
+P 2890 2080
+F 0 "#PWR011" H 2890 2080 30  0001 C CNN
+F 1 "GND" H 2890 2010 30  0001 C CNN
+F 2 "" H 2890 2080 60  0001 C CNN
+F 3 "" H 2890 2080 60  0001 C CNN
+	1    2890 2080
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:C-RESCUE-plyta_glowna C8
+U 1 1 50F18F96
+P 3940 1630
+F 0 "C8" H 3990 1730 50  0000 L CNN
+F 1 "100nF" H 3990 1530 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 3940 1630 60  0001 C CNN
+F 3 "" H 3940 1630 60  0001 C CNN
+	1    3940 1630
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R1
+U 1 1 50F18F75
+P 3190 1830
+F 0 "R1" V 3270 1830 50  0000 C CNN
+F 1 "470" V 3140 1830 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 3190 1830 60  0001 C CNN
+F 3 "" H 3190 1830 60  0001 C CNN
+	1    3190 1830
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:LED-RESCUE-plyta_glowna D1
+U 1 1 50F18F69
+P 3540 1630
+F 0 "D1" H 3540 1730 50  0000 C CNN
+F 1 "zasilnie" H 3540 1530 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 3540 1630 60  0001 C CNN
+F 3 "" H 3540 1630 60  0001 C CNN
+	1    3540 1630
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:LM7805-RESCUE-plyta_glowna U1
+U 1 1 50F18F4B
+P 2890 1480
+F 0 "U1" H 2890 1817 60  0000 C CNN
+F 1 "LM7805" H 2890 1711 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2_Rectifier" H 2890 1480 60  0001 C CNN
+F 3 "" H 2890 1480 60  0001 C CNN
+	1    2890 1480
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:C-RESCUE-plyta_glowna C2
+U 1 1 50F18F3F
+P 2340 1630
+F 0 "C2" H 2390 1730 50  0000 L CNN
+F 1 "100nF" H 2390 1530 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 2340 1630 60  0001 C CNN
+F 3 "" H 2340 1630 60  0001 C CNN
+	1    2340 1630
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:CP1-RESCUE-plyta_glowna C1
+U 1 1 50F18F3D
+P 4190 1630
+F 0 "C1" H 4240 1730 50  0000 L CNN
+F 1 "220uF" H 4240 1530 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 4190 1630 60  0001 C CNN
+F 3 "" H 4190 1630 60  0001 C CNN
+	1    4190 1630
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:CONN_2 Power1
+U 1 1 50F18E84
+P 860 1765
+F 0 "Power1" V 810 1765 40  0000 C CNN
+F 1 "+12V" V 910 1765 40  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MSTBA-G_02x5.08mm_Angled" H 860 1765 60  0001 C CNN
+F 3 "" H 860 1765 60  0001 C CNN
+	1    860  1765
+	-1   0    0    1   
+$EndComp
+Text Label 7560 1180 1    60   ~ 0
+start_lewa
+Text Label 9460 1280 1    60   ~ 0
+start_prawa
+Wire Wire Line
+	7560 1580 7560 1180
+$Comp
+L Device:Crystal Y1
+U 1 1 5BF49307
+P 4430 7980
+F 0 "Y1" H 4430 8130 50  0000 C CNN
+F 1 "16MHz" H 4430 7830 50  0000 C CNN
+F 2 "Crystals:Crystal_SMD_HC49-SD" H 4430 7980 50  0001 C CNN
+F 3 "" H 4430 7980 50  0001 C CNN
+	1    4430 7980
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5BF49308
+P 4750 7830
+F 0 "C9" H 4760 7900 50  0000 L CNN
+F 1 "27pF" H 4760 7750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4750 7830 50  0001 C CNN
+F 3 "" H 4750 7830 50  0001 C CNN
+	1    4750 7830
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5BF49309
+P 4750 8130
+F 0 "C10" H 4760 8200 50  0000 L CNN
+F 1 "27pF" H 4760 8050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4750 8130 50  0001 C CNN
+F 3 "" H 4750 8130 50  0001 C CNN
+	1    4750 8130
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3880 7910 4080 7910
+Wire Wire Line
+	4080 7910 4080 7830
+Wire Wire Line
+	4080 7830 4430 7830
+Wire Wire Line
+	3880 8010 4080 8010
+Wire Wire Line
+	4080 8010 4080 8130
+Wire Wire Line
+	4080 8130 4430 8130
+Connection ~ 4430 8130
+Connection ~ 4430 7830
+$Comp
+L power:GND #PWR012
+U 1 1 5BF4930A
+P 4850 7980
+F 0 "#PWR012" H 4850 7730 50  0001 C CNN
+F 1 "GND" H 4850 7830 50  0000 C CNN
+F 2 "" H 4850 7980 50  0001 C CNN
+F 3 "" H 4850 7980 50  0001 C CNN
+	1    4850 7980
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 7830 4850 7980
+Connection ~ 4850 7980
+$Comp
+L Device:R R2
+U 1 1 5BF49310
+P 4450 8760
+F 0 "R2" V 4530 8760 50  0000 C CNN
+F 1 "10k" V 4450 8760 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 4450 8760 60  0001 C CNN
+F 3 "" H 4450 8760 60  0001 C CNN
+	1    4450 8760
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5BF49311
+P 1530 9510
+F 0 "#PWR013" H 1530 9510 30  0001 C CNN
+F 1 "GND" H 1530 9440 30  0001 C CNN
+F 2 "" H 1530 9510 60  0001 C CNN
+F 3 "" H 1530 9510 60  0001 C CNN
+	1    1530 9510
+	0    1    1    0   
+$EndComp
+Text GLabel 3880 7810 2    60   Input ~ 0
+SCK
+Text GLabel 3880 7610 2    60   Input ~ 0
+MOSI
+Text GLabel 3880 7710 2    60   Input ~ 0
+MISO
+Text GLabel 4160 8760 1    60   Input ~ 0
+RST
+$Comp
+L power:+5V #PWR014
+U 1 1 5BF49312
+P 1720 7270
+F 0 "#PWR014" H 1720 7120 50  0001 C CNN
+F 1 "+5V" H 1720 7410 50  0000 C CNN
+F 2 "" H 1720 7270 50  0000 C CNN
+F 3 "" H 1720 7270 50  0000 C CNN
+	1    1720 7270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5BF49313
+P 4280 8860
+F 0 "C7" H 4290 8930 50  0000 L CNN
+F 1 "100nF" H 4290 8780 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4280 8860 50  0001 C CNN
+F 3 "" H 4280 8860 50  0001 C CNN
+	1    4280 8860
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5BF49314
+P 4280 8960
+F 0 "#PWR015" H 4280 8960 30  0001 C CNN
+F 1 "GND" H 4280 8890 30  0001 C CNN
+F 2 "" H 4280 8960 60  0001 C CNN
+F 3 "" H 4280 8960 60  0001 C CNN
+	1    4280 8960
+	1    0    0    -1  
+$EndComp
+Connection ~ 1780 9510
+Wire Wire Line
+	1780 9610 1980 9610
+Wire Wire Line
+	1980 9510 1780 9510
+$Comp
+L Device:C C3
+U 1 1 5BF49316
+P 1720 7570
+F 0 "C3" H 1770 7670 50  0000 L CNN
+F 1 "100nF" H 1770 7470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 1720 7570 60  0001 C CNN
+F 3 "" H 1720 7570 60  0001 C CNN
+	1    1720 7570
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5BF49317
+P 1720 7720
+F 0 "#PWR016" H 1720 7720 30  0001 C CNN
+F 1 "GND" H 1720 7650 30  0001 C CNN
+F 2 "" H 1720 7720 60  0001 C CNN
+F 3 "" H 1720 7720 60  0001 C CNN
+	1    1720 7720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3880 8760 4280 8760
+$Comp
+L power:+5V #PWR017
+U 1 1 5BF49318
+P 4750 8760
+F 0 "#PWR017" H 4750 8610 50  0001 C CNN
+F 1 "+5V" H 4750 8900 50  0000 C CNN
+F 2 "" H 4750 8760 50  0000 C CNN
+F 3 "" H 4750 8760 50  0000 C CNN
+	1    4750 8760
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 8760 4750 8760
+Connection ~ 4280 8760
+Wire Wire Line
+	1860 7610 1980 7610
+Wire Wire Line
+	1860 7310 1980 7310
+Text Label 3880 8660 0    60   ~ 0
+SCL
+Text Label 3880 8560 0    60   ~ 0
+SDA
+Text Label 3880 8460 0    60   ~ 0
+OLED_PWR
+NoConn ~ 3880 9510
+NoConn ~ 3880 9610
+$Comp
+L Device:C C4
+U 1 1 5BF4931E
+P 1720 8060
+F 0 "C4" H 1770 8160 50  0000 L CNN
+F 1 "100nF" H 1770 7960 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 1720 8060 60  0001 C CNN
+F 3 "" H 1720 8060 60  0001 C CNN
+	1    1720 8060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5BF4931F
+P 1720 8210
+F 0 "#PWR018" H 1720 8210 30  0001 C CNN
+F 1 "GND" H 1720 8140 30  0001 C CNN
+F 2 "" H 1720 8210 60  0001 C CNN
+F 3 "" H 1720 8210 60  0001 C CNN
+	1    1720 8210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1720 7420 1860 7420
+Wire Wire Line
+	1860 7310 1860 7420
+Connection ~ 1860 7420
+Wire Wire Line
+	1720 7270 1720 7420
+Wire Wire Line
+	1720 7910 1980 7910
+Wire Wire Line
+	1780 9610 1780 9510
+$Comp
+L plyta_glowna-rescue:ATMEGA328-PU U2
+U 1 1 5BEFDF76
+P 2880 8410
+F 0 "U2" H 2130 9660 50  0000 L BNN
+F 1 "ATMEGA328-PU" H 3280 7010 50  0000 L BNN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 2880 8410 50  0001 C CIN
+F 3 "" H 2880 8410 50  0001 C CNN
+	1    2880 8410
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:FT232RL U3
+U 1 1 5BF520D9
+P 3350 4360
+F 0 "U3" H 2600 5560 60  0000 C CNN
+F 1 "FT232RL" H 3350 4360 60  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 3350 4360 60  0001 C CNN
+F 3 "" H 3350 4360 60  0000 C CNN
+	1    3350 4360
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5BF520DA
+P 3050 5960
+F 0 "#PWR019" H 3050 5710 50  0001 C CNN
+F 1 "GND" H 3050 5810 50  0000 C CNN
+F 2 "" H 3050 5960 50  0000 C CNN
+F 3 "" H 3050 5960 50  0000 C CNN
+	1    3050 5960
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 3460 2    60   Input ~ 0
+TXD
+Text GLabel 4450 3610 2    60   Input ~ 0
+RXD
+$Comp
+L Device:C C6
+U 1 1 5BF520DD
+P 2250 5510
+F 0 "C6" H 2275 5610 50  0000 L CNN
+F 1 "100nF" H 2275 5410 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 2288 5360 50  0001 C CNN
+F 3 "" H 2250 5510 50  0000 C CNN
+	1    2250 5510
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5BF520DE
+P 2250 5660
+F 0 "#PWR020" H 2250 5410 50  0001 C CNN
+F 1 "GND" H 2250 5510 50  0000 C CNN
+F 2 "" H 2250 5660 50  0000 C CNN
+F 3 "" H 2250 5660 50  0000 C CNN
+	1    2250 5660
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR021
+U 1 1 5BF520DF
+P 2250 3060
+F 0 "#PWR021" H 2250 2910 50  0001 C CNN
+F 1 "+5V" H 2250 3200 50  0000 C CNN
+F 2 "" H 2250 3060 50  0000 C CNN
+F 3 "" H 2250 3060 50  0000 C CNN
+	1    2250 3060
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 3760
+NoConn ~ 4450 3910
+NoConn ~ 4450 4210
+NoConn ~ 4450 4360
+NoConn ~ 4450 4510
+NoConn ~ 4450 4660
+NoConn ~ 4450 4810
+NoConn ~ 4450 4960
+NoConn ~ 2250 4360
+NoConn ~ 2250 4660
+NoConn ~ 2250 4810
+$Comp
+L power:GND #PWR022
+U 1 1 5BF520E0
+P 1100 3960
+F 0 "#PWR022" H 1100 3710 50  0001 C CNN
+F 1 "GND" H 1100 3810 50  0000 C CNN
+F 2 "" H 1100 3960 50  0000 C CNN
+F 3 "" H 1100 3960 50  0000 C CNN
+	1    1100 3960
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 5760
+Connection ~ 2250 3460
+Wire Wire Line
+	2250 3060 2250 3210
+Wire Wire Line
+	2250 5360 2250 5260
+Wire Wire Line
+	1850 3910 2250 3910
+Wire Wire Line
+	1850 3660 1850 3910
+Wire Wire Line
+	1400 3660 1850 3660
+Wire Wire Line
+	1750 3560 1400 3560
+Wire Wire Line
+	1750 4060 1750 3560
+Wire Wire Line
+	2250 4060 1750 4060
+Wire Wire Line
+	1550 3360 1550 3210
+Wire Wire Line
+	1400 3360 1550 3360
+Wire Wire Line
+	3050 5760 3050 5960
+Connection ~ 3200 5760
+Connection ~ 3350 5760
+Connection ~ 3500 5760
+Wire Wire Line
+	3050 5760 3200 5760
+$Comp
+L Device:C C5
+U 1 1 5BF5213E
+P 2050 3360
+F 0 "C5" H 2075 3460 50  0000 L CNN
+F 1 "100nF" H 2075 3260 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 2088 3210 50  0001 C CNN
+F 3 "" H 2050 3360 50  0000 C CNN
+	1    2050 3360
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5BF5213F
+P 2050 3510
+F 0 "#PWR023" H 2050 3260 50  0001 C CNN
+F 1 "GND" H 2050 3360 50  0000 C CNN
+F 2 "" H 2050 3510 50  0000 C CNN
+F 3 "" H 2050 3510 50  0000 C CNN
+	1    2050 3510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3210 2250 3210
+Connection ~ 2250 3210
+NoConn ~ 4450 5110
+NoConn ~ 4450 5260
+NoConn ~ 4450 4060
+$Comp
+L plyta_glowna-rescue:USB_B-RESCUE-plyta_glowna J1
+U 1 1 5BF545D2
+P 1100 3560
+F 0 "J1" H 900 4010 50  0000 L CNN
+F 1 "USB_B" H 900 3910 50  0000 L CNN
+F 2 "Connect:USB_B" H 1250 3510 50  0001 C CNN
+F 3 "" H 1250 3510 50  0001 C CNN
+	1    1100 3560
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR024
+U 1 1 5BF5482F
+P 1550 3210
+F 0 "#PWR024" H 1550 3060 50  0001 C CNN
+F 1 "+5V" H 1550 3350 50  0000 C CNN
+F 2 "" H 1550 3210 50  0000 C CNN
+F 3 "" H 1550 3210 50  0000 C CNN
+	1    1550 3210
+	1    0    0    -1  
+$EndComp
+Connection ~ 11650 4630
+Wire Wire Line
+	11800 4630 11650 4630
+Connection ~ 9100 4580
+Wire Wire Line
+	9200 4580 9100 4580
+Wire Wire Line
+	9200 4580 9200 4930
+Connection ~ 11000 4630
+Wire Wire Line
+	11000 5080 11000 4630
+Connection ~ 8750 4780
+Wire Wire Line
+	8750 4580 8750 4780
+Wire Wire Line
+	9100 4580 9100 4480
+Wire Wire Line
+	13250 5580 13250 6030
+Wire Wire Line
+	13250 6030 11700 6030
+Wire Wire Line
+	11700 6030 11700 5130
+Wire Wire Line
+	11700 4780 11150 4780
+Wire Wire Line
+	8600 4780 8750 4780
+Wire Wire Line
+	8800 4780 8800 5780
+Wire Wire Line
+	8800 5780 13050 5780
+Wire Wire Line
+	13050 5780 13050 5580
+Wire Wire Line
+	12850 5630 12850 5580
+Connection ~ 9500 4780
+Wire Wire Line
+	9500 4630 9500 4780
+Connection ~ 10000 5080
+Wire Wire Line
+	9500 5080 10000 5080
+Wire Wire Line
+	10500 4430 10500 4480
+Wire Wire Line
+	10500 5080 10500 4930
+Wire Wire Line
+	10000 5080 10000 5180
+Connection ~ 9500 4930
+Connection ~ 7600 4930
+Wire Wire Line
+	8100 5080 8100 5180
+Wire Wire Line
+	8600 4930 8600 5080
+Wire Wire Line
+	8600 4430 8600 4480
+Wire Wire Line
+	8600 5080 8550 5080
+Connection ~ 8100 5080
+Wire Wire Line
+	7600 5080 7600 4930
+Connection ~ 7600 4780
+Wire Wire Line
+	9500 4480 9500 4180
+Wire Wire Line
+	8600 4630 9050 4630
+Wire Wire Line
+	9050 4630 9050 5430
+Wire Wire Line
+	9050 5880 13150 5880
+Wire Wire Line
+	13150 5880 13150 5580
+Wire Wire Line
+	13350 5580 13350 6080
+Wire Wire Line
+	13350 6080 11650 6080
+Wire Wire Line
+	11650 6080 11650 4630
+Wire Wire Line
+	8550 5880 8550 5080
+Connection ~ 8550 5080
+Wire Wire Line
+	11000 4480 11150 4480
+Wire Wire Line
+	11150 4480 11150 4780
+Connection ~ 11150 4780
+Wire Wire Line
+	9200 5430 9050 5430
+Connection ~ 9050 5430
+Wire Wire Line
+	11800 5130 11700 5130
+Connection ~ 11700 5130
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR025
+U 1 1 5BF56CED
+P 13750 3880
+F 0 "#PWR025" H 13750 3880 30  0001 C CNN
+F 1 "GND" H 13750 3810 30  0001 C CNN
+F 2 "" H 13750 3880 60  0001 C CNN
+F 3 "" H 13750 3880 60  0001 C CNN
+	1    13750 3880
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:SN75176 U4
+U 1 1 5BF56CF3
+P 8050 4680
+F 0 "U4" H 8100 4730 60  0001 C CNN
+F 1 "SN75176_lewa" H 8100 5080 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 8050 4680 60  0001 C CNN
+F 3 "" H 8050 4680 60  0001 C CNN
+	1    8050 4680
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR026
+U 1 1 5BF56CF9
+P 8600 4430
+F 0 "#PWR026" H 8600 4520 20  0001 C CNN
+F 1 "+5V" H 8600 4520 30  0000 C CNN
+F 2 "" H 8600 4430 60  0001 C CNN
+F 3 "" H 8600 4430 60  0001 C CNN
+	1    8600 4430
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR027
+U 1 1 5BF56CFF
+P 8100 5180
+F 0 "#PWR027" H 8100 5180 30  0001 C CNN
+F 1 "GND" H 8100 5110 30  0001 C CNN
+F 2 "" H 8100 5180 60  0001 C CNN
+F 3 "" H 8100 5180 60  0001 C CNN
+	1    8100 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR028
+U 1 1 5BF56D05
+P 10000 5180
+F 0 "#PWR028" H 10000 5180 30  0001 C CNN
+F 1 "GND" H 10000 5110 30  0001 C CNN
+F 2 "" H 10000 5180 60  0001 C CNN
+F 3 "" H 10000 5180 60  0001 C CNN
+	1    10000 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR029
+U 1 1 5BF56D0B
+P 10500 4430
+F 0 "#PWR029" H 10500 4520 20  0001 C CNN
+F 1 "+5V" H 10500 4520 30  0000 C CNN
+F 2 "" H 10500 4430 60  0001 C CNN
+F 3 "" H 10500 4430 60  0001 C CNN
+	1    10500 4430
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:SN75176 U5
+U 1 1 5BF56D11
+P 9950 4680
+F 0 "U5" H 10000 4730 60  0001 C CNN
+F 1 "SN75176_prawa" H 10000 5080 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 9950 4680 60  0001 C CNN
+F 3 "" H 9950 4680 60  0001 C CNN
+	1    9950 4680
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR031
+U 1 1 5BF56D1D
+P 13450 5580
+F 0 "#PWR031" H 13450 5580 30  0001 C CNN
+F 1 "GND" H 13450 5510 30  0001 C CNN
+F 2 "" H 13450 5580 60  0001 C CNN
+F 3 "" H 13450 5580 60  0001 C CNN
+	1    13450 5580
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R10
+U 1 1 5BF56D23
+P 8850 4480
+F 0 "R10" V 8930 4480 50  0000 C CNN
+F 1 "470" V 8850 4480 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 8850 4480 60  0001 C CNN
+F 3 "" H 8850 4480 60  0001 C CNN
+	1    8850 4480
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R9
+U 1 1 5BF56D29
+P 8800 5880
+F 0 "R9" V 8880 5880 50  0000 C CNN
+F 1 "470" V 8800 5880 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 8800 5880 60  0001 C CNN
+F 3 "" H 8800 5880 60  0001 C CNN
+	1    8800 5880
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R12
+U 1 1 5BF56D2F
+P 10750 4480
+F 0 "R12" V 10830 4480 50  0000 C CNN
+F 1 "470" V 10750 4480 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 10750 4480 60  0001 C CNN
+F 3 "" H 10750 4480 60  0001 C CNN
+	1    10750 4480
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R13
+U 1 1 5BF56D35
+P 10750 5080
+F 0 "R13" V 10830 5080 50  0000 C CNN
+F 1 "470" V 10750 5080 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 10750 5080 60  0001 C CNN
+F 3 "" H 10750 5080 60  0001 C CNN
+	1    10750 5080
+	0    1    1    0   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R11
+U 1 1 5BF56D3B
+P 9200 5180
+F 0 "R11" V 9280 5180 50  0000 C CNN
+F 1 "100" V 9200 5180 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 9200 5180 60  0001 C CNN
+F 3 "" H 9200 5180 60  0001 C CNN
+	1    9200 5180
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:R-RESCUE-plyta_glowna R14
+U 1 1 5BF56D41
+P 11800 4880
+F 0 "R14" V 11880 4880 50  0000 C CNN
+F 1 "100" V 11800 4880 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" H 11800 4880 60  0001 C CNN
+F 3 "" H 11800 4880 60  0001 C CNN
+	1    11800 4880
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:RJ45-TRANSFO-RESCUE-plyta_glowna J2
+U 1 1 5BF56D47
+P 13350 4480
+F 0 "J2" H 13450 5080 60  0000 L CNN
+F 1 "FINISH_CONN" H 13300 5080 60  0000 R CNN
+F 2 "Connect:RJHSE538X" H 13350 4480 60  0001 C CNN
+F 3 "" H 13350 4480 60  0001 C CNN
+	1    13350 4480
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 12950 5580
+NoConn ~ 13550 5580
+NoConn ~ 13650 5580
+NoConn ~ 13750 5580
+NoConn ~ 13850 5580
+Text Label 7600 4080 1    60   ~ 0
+meta_lewa
+Text Label 9500 4180 1    60   ~ 0
+meta_prawa
+Wire Wire Line
+	7600 4480 7600 4080
+Text GLabel 3880 8910 2    60   Input ~ 0
+TXD
+Text GLabel 3880 9010 2    60   Input ~ 0
+RXD
+$Comp
+L plyta_glowna-rescue:CONN_02X05-conn P1
+U 1 1 5BF5C4CA
+P 1200 5280
+F 0 "P1" H 1200 5580 50  0000 C CNN
+F 1 "AVR_ISP" H 1200 4980 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 1200 4080 50  0001 C CNN
+F 3 "" H 1200 4080 50  0000 C CNN
+	1    1200 5280
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5BF5C4CB
+P 850 5680
+F 0 "#PWR032" H 850 5430 50  0001 C CNN
+F 1 "GND" H 850 5530 50  0000 C CNN
+F 2 "" H 850 5680 50  0000 C CNN
+F 3 "" H 850 5680 50  0000 C CNN
+	1    850  5680
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR033
+U 1 1 5BF5C4CC
+P 950 5480
+F 0 "#PWR033" H 950 5330 50  0001 C CNN
+F 1 "+5V" H 950 5620 50  0000 C CNN
+F 2 "" H 950 5480 50  0000 C CNN
+F 3 "" H 950 5480 50  0000 C CNN
+	1    950  5480
+	-1   0    0    1   
+$EndComp
+Text GLabel 1450 5480 2    60   Input ~ 0
+MOSI
+Text GLabel 1450 5280 2    60   Input ~ 0
+RST
+Text GLabel 1450 5180 2    60   Input ~ 0
+SCK
+Text GLabel 1450 5080 2    60   Input ~ 0
+MISO
+Connection ~ 950  5380
+Wire Wire Line
+	850  5380 950  5380
+Connection ~ 850  5380
+Connection ~ 850  5280
+Wire Wire Line
+	950  5280 850  5280
+Connection ~ 850  5180
+Wire Wire Line
+	950  5180 850  5180
+Wire Wire Line
+	850  5080 850  5180
+Wire Wire Line
+	950  5080 850  5080
+Text Label 3880 9210 0    60   ~ 0
+meta_prawa
+Text Label 3880 9110 0    60   ~ 0
+meta_lewa
+Text Label 3880 9310 0    60   ~ 0
+start_prawa
+Text Label 3880 9410 0    60   ~ 0
+start_lewa
+$Comp
+L plyta_glowna-rescue:BUZ11-RESCUE-plyta_glowna Q1
+U 1 1 5C0313A2
+P 7580 8480
+F 0 "Q1" H 7830 8555 50  0000 L CNN
+F 1 "BUZ11" H 7830 8480 50  0000 L CNN
+F 2 "Power_Integrations:TO-220" H 7830 8405 50  0000 L CIN
+F 3 "" H 7580 8480 50  0000 L CNN
+	1    7580 8480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5C031B59
+P 7280 8530
+F 0 "R3" H 7310 8550 50  0000 L CNN
+F 1 "470" H 7310 8490 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 7280 8530 50  0001 C CNN
+F 3 "" H 7280 8530 50  0000 C CNN
+	1    7280 8530
+	0    1    1    0   
+$EndComp
+Text Label 7680 8280 0    60   ~ 0
+mosfet_LED1
+Text Label 7180 8530 2    60   ~ 0
+LED1
+$Comp
+L plyta_glowna-rescue:BUZ11-RESCUE-plyta_glowna Q2
+U 1 1 5C038CAD
+P 7580 9190
+F 0 "Q2" H 7830 9265 50  0000 L CNN
+F 1 "BUZ11" H 7830 9190 50  0000 L CNN
+F 2 "Power_Integrations:TO-220" H 7830 9115 50  0000 L CIN
+F 3 "" H 7580 9190 50  0000 L CNN
+	1    7580 9190
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5C038CB3
+P 7280 9240
+F 0 "R4" H 7310 9260 50  0000 L CNN
+F 1 "470" H 7310 9200 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 7280 9240 50  0001 C CNN
+F 3 "" H 7280 9240 50  0000 C CNN
+	1    7280 9240
+	0    1    1    0   
+$EndComp
+Text Label 7680 8990 0    60   ~ 0
+mosfet_LED2
+Text Label 7180 9240 2    60   ~ 0
+LED2
+$Comp
+L plyta_glowna-rescue:BUZ11-RESCUE-plyta_glowna Q3
+U 1 1 5C039091
+P 7590 9945
+F 0 "Q3" H 7840 10020 50  0000 L CNN
+F 1 "BUZ11" H 7840 9945 50  0000 L CNN
+F 2 "Power_Integrations:TO-220" H 7840 9870 50  0000 L CIN
+F 3 "" H 7590 9945 50  0000 L CNN
+	1    7590 9945
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5C039097
+P 7290 9995
+F 0 "R5" H 7320 10015 50  0000 L CNN
+F 1 "470" H 7320 9955 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 7290 9995 50  0001 C CNN
+F 3 "" H 7290 9995 50  0000 C CNN
+	1    7290 9995
+	0    1    1    0   
+$EndComp
+Text Label 7690 9745 0    60   ~ 0
+mosfet_LED3
+Text Label 7190 9995 2    60   ~ 0
+LED3
+$Comp
+L plyta_glowna-rescue:BUZ11-RESCUE-plyta_glowna Q4
+U 1 1 5C039521
+P 9030 8490
+F 0 "Q4" H 9280 8565 50  0000 L CNN
+F 1 "BUZ11" H 9280 8490 50  0000 L CNN
+F 2 "Power_Integrations:TO-220" H 9280 8415 50  0000 L CIN
+F 3 "" H 9030 8490 50  0000 L CNN
+	1    9030 8490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5C039527
+P 8730 8540
+F 0 "R6" H 8760 8560 50  0000 L CNN
+F 1 "470" H 8760 8500 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 8730 8540 50  0001 C CNN
+F 3 "" H 8730 8540 50  0000 C CNN
+	1    8730 8540
+	0    1    1    0   
+$EndComp
+Text Label 9130 8290 0    60   ~ 0
+mosfet_LED4
+Text Label 8630 8540 2    60   ~ 0
+LED4
+$Comp
+L plyta_glowna-rescue:BUZ11-RESCUE-plyta_glowna Q5
+U 1 1 5C039535
+P 9030 9200
+F 0 "Q5" H 9280 9275 50  0000 L CNN
+F 1 "BUZ11" H 9280 9200 50  0000 L CNN
+F 2 "Power_Integrations:TO-220" H 9280 9125 50  0000 L CIN
+F 3 "" H 9030 9200 50  0000 L CNN
+	1    9030 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5C03953B
+P 8730 9250
+F 0 "R7" H 8760 9270 50  0000 L CNN
+F 1 "470" H 8760 9210 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 8730 9250 50  0001 C CNN
+F 3 "" H 8730 9250 50  0000 C CNN
+	1    8730 9250
+	0    1    1    0   
+$EndComp
+Text Label 9130 9000 0    60   ~ 0
+mosfet_LED5
+Text Label 8630 9250 2    60   ~ 0
+LED5
+$Comp
+L plyta_glowna-rescue:BUZ11-RESCUE-plyta_glowna Q6
+U 1 1 5C039549
+P 9040 9955
+F 0 "Q6" H 9290 10030 50  0000 L CNN
+F 1 "BUZ11" H 9290 9955 50  0000 L CNN
+F 2 "Power_Integrations:TO-220" H 9290 9880 50  0000 L CIN
+F 3 "" H 9040 9955 50  0000 L CNN
+	1    9040 9955
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5C03954F
+P 8740 10005
+F 0 "R8" H 8770 10025 50  0000 L CNN
+F 1 "470" H 8770 9965 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 8740 10005 50  0001 C CNN
+F 3 "" H 8740 10005 50  0000 C CNN
+	1    8740 10005
+	0    1    1    0   
+$EndComp
+Text Label 9140 9755 0    60   ~ 0
+mosfet_LED6
+Text Label 8640 10005 2    60   ~ 0
+LED6
+Text Label 3880 7310 0    60   ~ 0
+LED1
+Text Label 3880 7410 0    60   ~ 0
+LED2
+Text Label 3880 7510 0    60   ~ 0
+LED3
+Text Label 3880 8160 0    60   ~ 0
+LED4
+Text Label 3880 8260 0    60   ~ 0
+LED5
+Text Label 3880 8360 0    60   ~ 0
+LED6
+$Comp
+L plyta_glowna-rescue:CONN_01X07-conn P2
+U 1 1 5C03FC09
+P 12440 9065
+F 0 "P2" H 12440 9465 50  0000 C CNN
+F 1 "LED_TREE" V 12540 9065 50  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_07x5.08mm_Angled_ThreadedFlange" H 12440 9065 50  0001 C CNN
+F 3 "" H 12440 9065 50  0000 C CNN
+	1    12440 9065
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR040
+U 1 1 5C040F02
+P 12140 8865
+F 0 "#PWR040" H 12140 8715 50  0001 C CNN
+F 1 "+12V" H 12140 9005 50  0000 C CNN
+F 2 "" H 12140 8865 50  0000 C CNN
+F 3 "" H 12140 8865 50  0000 C CNN
+	1    12140 8865
+	1    0    0    -1  
+$EndComp
+Text Label 12740 8865 1    60   ~ 0
+mosfet_LED1
+Text Label 12640 8865 1    60   ~ 0
+mosfet_LED2
+Text Label 12540 8865 1    60   ~ 0
+mosfet_LED3
+Text Label 12440 8865 1    60   ~ 0
+mosfet_LED4
+Text Label 12340 8865 1    60   ~ 0
+mosfet_LED5
+Text Label 12240 8865 1    60   ~ 0
+mosfet_LED6
+$Comp
+L plyta_glowna-rescue:Diode_Bridge D2
+U 1 1 5C153C98
+P 1690 1665
+F 0 "D2" H 1440 1965 50  0000 C CNN
+F 1 "Diode_Bridge" H 2040 1315 50  0000 C CNN
+F 2 "drzwiczki_modbus:DB151" H 1690 1665 50  0001 C CNN
+F 3 "" H 1690 1665 50  0000 C CNN
+	1    1690 1665
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2080 1830 2340 1830
+Wire Wire Line
+	2890 1830 2890 1825
+Wire Wire Line
+	2080 1830 2080 2065
+Wire Wire Line
+	2080 2065 1690 2065
+Wire Wire Line
+	1690 1265 2090 1265
+Wire Wire Line
+	2090 1265 2090 1430
+Wire Wire Line
+	2090 1430 2340 1430
+Wire Wire Line
+	1225 1590 1225 1665
+Wire Wire Line
+	1210 1665 1225 1665
+Wire Wire Line
+	1210 1865 1210 2150
+Wire Wire Line
+	1210 2150 1645 2150
+Wire Wire Line
+	2125 2150 2125 1665
+Wire Wire Line
+	2125 1665 2090 1665
+Connection ~ 1225 1665
+Text Label 15210 8850 1    60   ~ 0
+OLED_PWR
+$Comp
+L power:GND #PWR041
+U 1 1 5C165313
+P 15110 8850
+F 0 "#PWR041" H 15110 8850 30  0001 C CNN
+F 1 "GND" H 15110 8780 30  0001 C CNN
+F 2 "" H 15110 8850 60  0001 C CNN
+F 3 "" H 15110 8850 60  0001 C CNN
+	1    15110 8850
+	-1   0    0    1   
+$EndComp
+Text Label 15010 8850 1    60   ~ 0
+SCL
+Text Label 14910 8850 1    60   ~ 0
+SDA
+NoConn ~ 1000 3960
+Wire Wire Line
+	2890 1830 2890 1730
+Wire Wire Line
+	2890 1830 2940 1830
+Wire Wire Line
+	3940 1430 4190 1430
+Wire Wire Line
+	2340 1430 2490 1430
+Wire Wire Line
+	3540 1430 3840 1430
+Wire Wire Line
+	3840 1430 3940 1430
+Wire Wire Line
+	2340 1830 2890 1830
+Wire Wire Line
+	4040 1830 4190 1830
+Wire Wire Line
+	11610 1730 10960 1730
+Wire Wire Line
+	9060 1680 8710 1680
+Wire Wire Line
+	10960 1730 10460 1730
+Wire Wire Line
+	8710 1880 8760 1880
+Wire Wire Line
+	9460 1880 9460 2030
+Wire Wire Line
+	9960 2180 10460 2180
+Wire Wire Line
+	9460 2030 9460 2180
+Wire Wire Line
+	7560 2030 7560 1880
+Wire Wire Line
+	8060 2180 7560 2180
+Wire Wire Line
+	7560 1880 7560 1730
+Wire Wire Line
+	8510 2180 8060 2180
+Wire Wire Line
+	11110 1880 10460 1880
+Wire Wire Line
+	9010 2530 9010 2980
+Wire Wire Line
+	11660 2230 11660 1880
+Wire Wire Line
+	4430 8130 4650 8130
+Wire Wire Line
+	4430 7830 4650 7830
+Wire Wire Line
+	4850 7980 4850 8130
+Wire Wire Line
+	1780 9510 1530 9510
+Wire Wire Line
+	4280 8760 4300 8760
+Wire Wire Line
+	1860 7420 1860 7610
+Wire Wire Line
+	2250 3460 2250 3610
+Wire Wire Line
+	3200 5760 3350 5760
+Wire Wire Line
+	3350 5760 3500 5760
+Wire Wire Line
+	3500 5760 3650 5760
+Wire Wire Line
+	2250 3210 2250 3460
+Wire Wire Line
+	11650 4630 11000 4630
+Wire Wire Line
+	9100 4580 8750 4580
+Wire Wire Line
+	11000 4630 10500 4630
+Wire Wire Line
+	8750 4780 8800 4780
+Wire Wire Line
+	9500 4780 9500 4930
+Wire Wire Line
+	10000 5080 10500 5080
+Wire Wire Line
+	9500 4930 9500 5080
+Wire Wire Line
+	7600 4930 7600 4780
+Wire Wire Line
+	8100 5080 7600 5080
+Wire Wire Line
+	7600 4780 7600 4630
+Wire Wire Line
+	8550 5080 8100 5080
+Wire Wire Line
+	11150 4780 10500 4780
+Wire Wire Line
+	9050 5430 9050 5880
+Wire Wire Line
+	11700 5130 11700 4780
+Wire Wire Line
+	950  5380 1450 5380
+Wire Wire Line
+	850  5380 850  5680
+Wire Wire Line
+	850  5280 850  5380
+Wire Wire Line
+	850  5180 850  5280
+Wire Wire Line
+	1225 1665 1290 1665
+Wire Notes Line
+	740  2230 4490 2230
+$Comp
+L plyta_glowna-rescue:LOGO-fbody_logo #G1
+U 1 1 5C4196CE
+P 5280 10230
+F 0 "#G1" H 5280 10051 60  0001 C CNN
+F 1 "LOGO" H 5280 10409 60  0001 C CNN
+F 2 "cwiartka:logo_fbody" H 5280 10230 50  0001 C CNN
+F 3 "" H 5280 10230 50  0001 C CNN
+	1    5280 10230
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR034
+U 1 1 5C44288C
+P 1645 2150
+F 0 "#PWR034" H 1645 1900 50  0001 C CNN
+F 1 "GNDA" H 1650 1977 50  0000 C CNN
+F 2 "" H 1645 2150 50  0001 C CNN
+F 3 "" H 1645 2150 50  0001 C CNN
+	1    1645 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1645 2150
+Wire Wire Line
+	1645 2150 2125 2150
+$Comp
+L power:GNDA #PWR046
+U 1 1 5C442995
+P 9130 9400
+F 0 "#PWR046" H 9130 9150 50  0001 C CNN
+F 1 "GNDA" H 9135 9227 50  0000 C CNN
+F 2 "" H 9130 9400 50  0001 C CNN
+F 3 "" H 9130 9400 50  0001 C CNN
+	1    9130 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR047
+U 1 1 5C4430F6
+P 9140 10155
+F 0 "#PWR047" H 9140 9905 50  0001 C CNN
+F 1 "GNDA" H 9145 9982 50  0000 C CNN
+F 2 "" H 9140 10155 50  0001 C CNN
+F 3 "" H 9140 10155 50  0001 C CNN
+	1    9140 10155
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR044
+U 1 1 5C443258
+P 7690 10145
+F 0 "#PWR044" H 7690 9895 50  0001 C CNN
+F 1 "GNDA" H 7695 9972 50  0000 C CNN
+F 2 "" H 7690 10145 50  0001 C CNN
+F 3 "" H 7690 10145 50  0001 C CNN
+	1    7690 10145
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR043
+U 1 1 5C44344D
+P 7680 9390
+F 0 "#PWR043" H 7680 9140 50  0001 C CNN
+F 1 "GNDA" H 7685 9217 50  0000 C CNN
+F 2 "" H 7680 9390 50  0001 C CNN
+F 3 "" H 7680 9390 50  0001 C CNN
+	1    7680 9390
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR042
+U 1 1 5C4435E0
+P 7680 8680
+F 0 "#PWR042" H 7680 8430 50  0001 C CNN
+F 1 "GNDA" H 7685 8507 50  0000 C CNN
+F 2 "" H 7680 8680 50  0001 C CNN
+F 3 "" H 7680 8680 50  0001 C CNN
+	1    7680 8680
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR045
+U 1 1 5C443773
+P 9130 8690
+F 0 "#PWR045" H 9130 8440 50  0001 C CNN
+F 1 "GNDA" H 9135 8517 50  0000 C CNN
+F 2 "" H 9130 8690 50  0001 C CNN
+F 3 "" H 9130 8690 50  0001 C CNN
+	1    9130 8690
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_01X04 P3
+U 1 1 5C4FE983
+P 5220 1025
+F 0 "P3" V 5185 787 50  0000 R CNN
+F 1 "CONN_01X04" V 5094 787 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5220 1025 50  0001 C CNN
+F 3 "" H 5220 1025 50  0000 C CNN
+	1    5220 1025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR036
+U 1 1 5C4FEDBE
+P 5070 1225
+F 0 "#PWR036" H 5070 1315 20  0001 C CNN
+F 1 "+5V" H 5070 1315 30  0000 C CNN
+F 2 "" H 5070 1225 60  0001 C CNN
+F 3 "" H 5070 1225 60  0001 C CNN
+	1    5070 1225
+	-1   0    0    1   
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR037
+U 1 1 5C4FF14D
+P 5170 1225
+F 0 "#PWR037" H 5170 1225 30  0001 C CNN
+F 1 "GND" H 5170 1155 30  0001 C CNN
+F 2 "" H 5170 1225 60  0001 C CNN
+F 3 "" H 5170 1225 60  0001 C CNN
+	1    5170 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L plyta_glowna-rescue:GND-RESCUE-plyta_glowna #PWR038
+U 1 1 5C4FF284
+P 5270 1225
+F 0 "#PWR038" H 5270 1225 30  0001 C CNN
+F 1 "GND" H 5270 1155 30  0001 C CNN
+F 2 "" H 5270 1225 60  0001 C CNN
+F 3 "" H 5270 1225 60  0001 C CNN
+	1    5270 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12P #PWR035
+U 1 1 5C4FF568
+P 2340 1430
+F 0 "#PWR035" H 2340 1280 50  0001 C CNN
+F 1 "+12P" H 2355 1603 50  0000 C CNN
+F 2 "" H 2340 1430 50  0001 C CNN
+F 3 "" H 2340 1430 50  0001 C CNN
+	1    2340 1430
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12P #PWR039
+U 1 1 5C4FF674
+P 5370 1225
+F 0 "#PWR039" H 5370 1075 50  0001 C CNN
+F 1 "+12P" H 5385 1398 50  0000 C CNN
+F 2 "" H 5370 1225 50  0001 C CNN
+F 3 "" H 5370 1225 50  0001 C CNN
+	1    5370 1225
+	-1   0    0    1   
+$EndComp
+$Comp
+L conn:CONN_01X05 P4
+U 1 1 5C4FFD56
+P 15010 9050
+F 0 "P4" V 14882 9328 50  0000 L CNN
+F 1 "oled_conn" V 14973 9328 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 15010 9050 50  0001 C CNN
+F 3 "" H 15010 9050 50  0000 C CNN
+	1    15010 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR048
+U 1 1 5C509F0F
+P 14810 8850
+F 0 "#PWR048" H 14810 8940 20  0001 C CNN
+F 1 "+5V" H 14810 8940 30  0000 C CNN
+F 2 "" H 14810 8850 60  0001 C CNN
+F 3 "" H 14810 8850 60  0001 C CNN
+	1    14810 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12P #PWR030
+U 1 1 5C50B420
+P 12850 5630
+F 0 "#PWR030" H 12850 5480 50  0001 C CNN
+F 1 "+12P" H 12865 5803 50  0000 C CNN
+F 2 "" H 12850 5630 50  0001 C CNN
+F 3 "" H 12850 5630 50  0001 C CNN
+	1    12850 5630
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12P #PWR06
+U 1 1 5C50BA76
+P 12810 2730
+F 0 "#PWR06" H 12810 2580 50  0001 C CNN
+F 1 "+12P" H 12825 2903 50  0000 C CNN
+F 2 "" H 12810 2730 50  0001 C CNN
+F 3 "" H 12810 2730 50  0001 C CNN
+	1    12810 2730
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12810 2680 12810 2730
+$EndSCHEMATC

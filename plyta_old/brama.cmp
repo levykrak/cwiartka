@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2013-09-14 17:43:51
+
+BeginCmp
+TimeStamp = /523484E2;
+Reference = 0R1;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /523484EF;
+Reference = 0R2;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F3D;
+Reference = C1;
+ValeurCmp = 220uF;
+IdModule  = C1.5V8V;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F3F;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F96;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F99;
+Reference = C9;
+ValeurCmp = 100uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB435E;
+Reference = D2;
+ValeurCmp = Fotodioda_lewa;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4E06;
+Reference = D3;
+ValeurCmp = Fotodioda_prawa;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AC46E5;
+Reference = D4;
+ValeurCmp = LEDlewa;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AC472E;
+Reference = D5;
+ValeurCmp = LEDprawa;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5202B112;
+Reference = J3;
+ValeurCmp = RJ45-TRANSFO;
+IdModule  = RJ45_RJHSE;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F198D9;
+Reference = R4;
+ValeurCmp = 1,5M;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4E09;
+Reference = R5;
+ValeurCmp = 1,5M;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AC46F2;
+Reference = R6;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AC472D;
+Reference = R7;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5202B334;
+Reference = R12;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /520F4DD8;
+Reference = R13;
+ValeurCmp = 100;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /520F4DED;
+Reference = r14;
+ValeurCmp = 100;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F19795;
+Reference = RV2;
+ValeurCmp = np100k_lewa;
+IdModule  = RV2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4E0D;
+Reference = RV3;
+ValeurCmp = np100k;
+IdModule  = RV2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F4B;
+Reference = U1;
+ValeurCmp = LM7805;
+IdModule  = LM78XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4B39;
+Reference = U2;
+ValeurCmp = SN75176_lewa;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4330;
+Reference = U3;
+ValeurCmp = TL072;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4E03;
+Reference = U4;
+ValeurCmp = SN75176_prawa;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FECDFF;
+Reference = U5;
+ValeurCmp = ULN2803A;
+IdModule  = DIP-18__300_ELL;
+EndCmp
+
+EndListe

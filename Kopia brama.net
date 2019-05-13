@@ -1,0 +1,283 @@
+# EESchema Netlist Version 1.1 created  2013-08-14 13:53:09
+(
+ ( /50F18F3D C1V5 C1 220uF
+  ( 1 N-000028 )
+  ( 2 GND )
+ )
+ ( /50F18F3F C1 C2 100nF
+  ( 1 GND )
+  ( 2 N-000028 )
+ )
+ ( /50F18F96 C1 C8 100nF
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /50F18F99 C1V5 C9 100uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /51AB435E LED-5MM D2 Fotodioda_lewa
+  ( 1 GND )
+  ( 2 N-000030 )
+ )
+ ( /51AB4E06 LED-5MM D3 Fotodioda_prawa
+  ( 1 GND )
+  ( 2 N-000011 )
+ )
+ ( /51AC46E5 LED-5MM D4 LEDlewa
+  ( 1 N-000001 )
+  ( 2 N-000014 )
+ )
+ ( /51AC472E LED-5MM D5 LEDprawa
+  ( 1 N-000037 )
+  ( 2 N-000003 )
+ )
+ ( /51FECF55 LED-5MM D6 LEDlewa_A
+  ( 1 N-000034 )
+  ( 2 N-000016 )
+ )
+ ( /51FECF5F LED-5MM D7 LEDlewa_B
+  ( 1 N-000036 )
+  ( 2 N-000017 )
+ )
+ ( /51FECEE9 LED-5MM D8 LEDprawa_A
+  ( 1 N-000025 )
+  ( 2 N-000026 )
+ )
+ ( /51FECF09 LED-5MM D9 LEDprawa_B
+  ( 1 N-000035 )
+  ( 2 N-000015 )
+ )
+ ( /5202B112 RJ45_RJHSE J3 RJ45-TRANSFO
+  ( 1 N-000028 )
+  ( 2 ? )
+  ( 3 N-000034 )
+  ( 4 N-000036 )
+  ( 5 N-000025 )
+  ( 6 N-000035 )
+  ( 8 GND )
+  ( 13 GND )
+  ( GA ? )
+  ( GK ? )
+  ( YA +5V )
+  ( YK N-000031 )
+ )
+ ( /50F198D9 R3 R4 1,5M
+  ( 1 N-000030 )
+  ( 2 +5V )
+ )
+ ( /51AB4E09 R3 R5 1,5M
+  ( 1 N-000011 )
+  ( 2 +5V )
+ )
+ ( /51AC46F2 SM1206 R6 470
+  ( 1 GND )
+  ( 2 N-000014 )
+ )
+ ( /51AC472D SM1206 R7 470
+  ( 1 GND )
+  ( 2 N-000003 )
+ )
+ ( /51FECF54 SM1206 R8 470
+  ( 1 GND )
+  ( 2 N-000016 )
+ )
+ ( /51FECF60 SM1206 R9 470
+  ( 1 GND )
+  ( 2 N-000017 )
+ )
+ ( /51FECEEA SM1206 R10 470
+  ( 1 GND )
+  ( 2 N-000026 )
+ )
+ ( /51FECF08 SM1206 R11 470
+  ( 1 GND )
+  ( 2 N-000015 )
+ )
+ ( /5202B334 SM1206 R12 470
+  ( 1 N-000031 )
+  ( 2 GND )
+ )
+ ( /50F19795 RV2 RV2 np100k_lewa
+  ( 1 +5V )
+  ( 2 N-000029 )
+  ( 3 GND )
+ )
+ ( /51AB4E0D RV2 RV3 np100k
+  ( 1 +5V )
+  ( 2 N-000010 )
+  ( 3 GND )
+ )
+ ( /50F18F4B LM78XX U1 LM7805
+  ( GND GND )
+  ( VI N-000028 )
+  ( VO +5V )
+ )
+ ( /51AB4B39 DIP-8__300_ELL U2 SN75176_lewa
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 +5V )
+  ( 4 N-000001 )
+  ( 5 GND )
+  ( 6 N-000034 )
+  ( 7 N-000036 )
+  ( 8 +5V )
+ )
+ ( /51AB4E07 DIP-8__300_ELL U3 TL072
+  ( 1 N-000027 )
+  ( 2 N-000029 )
+  ( 3 N-000030 )
+  ( 4 GND )
+  ( 5 N-000011 )
+  ( 6 N-000010 )
+  ( 7 N-000024 )
+  ( 8 +5V )
+ )
+ ( /51AB4E03 DIP-8__300_ELL U4 SN75176_prawa
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 +5V )
+  ( 4 N-000037 )
+  ( 5 GND )
+  ( 6 N-000025 )
+  ( 7 N-000035 )
+  ( 8 +5V )
+ )
+ ( /51FECDFF DIP-18__300_ELL U5 ULN2803A
+  ( 1 N-000027 )
+  ( 2 N-000024 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 GND )
+  ( 10 +5V )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 N-000037 )
+  ( 18 N-000001 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,26 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 2014-07-18 14:14:29
+#Cmp ( sort. wg = Oznaczenie )
+| C1         CP1         
+| D1         LED         
+| IC1        ATTINY13-P  
+| P1         CONN_3X2    
+| P2         CONN_1      
+| P3         CONN_1      
+| Q1         BC558       
+| R1         3,3k        
+| R2         10k         
+#End Cmp
+
+#Cmp ( sort. wg = Wartość )
+| CP1          C1        
+| LED          D1        
+| ATTINY13-P   IC1       
+| CONN_3X2     P1        
+| CONN_1       P2        
+| CONN_1       P3        
+| BC558        Q1        
+| 3,3k         R1        
+| 10k          R2        
+#Koniec Cmp
+
+#Koniec listy

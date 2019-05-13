@@ -1,0 +1,304 @@
+# EESchema Netlist Version 1.1 created  2013-08-14 14:01:28
+(
+ ( /51AB4330 $noname  U3 TL072 {Lib=TL072}
+  (    1 N-000009 )
+  (    2 N-000030 )
+  (    3 N-000027 )
+  (    4 GND )
+  (    5 N-000025 )
+  (    6 N-000002 )
+  (    7 N-000006 )
+  (    8 +5V )
+ )
+ ( /5202B334 $noname  R12 470 {Lib=R}
+  (    1 N-000026 )
+  (    2 GND )
+ )
+ ( /5202B112 $noname  J3 RJ45-TRANSFO {Lib=RJ45-TRANSFO}
+  (   GA ? )
+  (   YA +5V )
+  (   GK ? )
+  (   YK N-000026 )
+  (    1 N-000033 )
+  (    2 ? )
+  (    3 N-000032 )
+  (    4 N-000022 )
+  (    5 N-000031 )
+  (    6 N-000024 )
+  (    8 GND )
+  (   13 GND )
+ )
+ ( /51FECDFF $noname  U5 ULN2803A {Lib=ULN2803A}
+  (    1 N-000009 )
+  (    2 N-000006 )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 GND )
+  (   10 +5V )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 N-000018 )
+  (   18 N-000023 )
+ )
+ ( /51AC472E $noname  D5 LEDprawa {Lib=DIODE}
+  (    1 N-000018 )
+  (    2 N-000017 )
+ )
+ ( /51AC472D $noname  R7 470 {Lib=R}
+  (    1 GND )
+  (    2 N-000017 )
+ )
+ ( /51AC46F2 $noname  R6 470 {Lib=R}
+  (    1 GND )
+  (    2 N-000005 )
+ )
+ ( /51AC46E5 $noname  D4 LEDlewa {Lib=DIODE}
+  (    1 N-000023 )
+  (    2 N-000005 )
+ )
+ ( /51AB4E0D $noname  RV3 np100k {Lib=POT}
+  (    1 +5V )
+  (    2 N-000002 )
+  (    3 GND )
+ )
+ ( /51AB4E09 $noname  R5 1,5M {Lib=R}
+  (    1 N-000025 )
+  (    2 +5V )
+ )
+ ( /51AB4E06 $noname  D3 Fotodioda_prawa {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000025 )
+ )
+ ( /51AB4E03 $noname  U4 SN75176_prawa {Lib=SN75176}
+  (    1 GND )
+  (    2 GND )
+  (    3 +5V )
+  (    4 N-000018 )
+  (    5 GND )
+  (    6 N-000031 )
+  (    7 N-000024 )
+  (    8 +5V )
+ )
+ ( /51AB4B39 $noname  U2 SN75176_lewa {Lib=SN75176}
+  (    1 GND )
+  (    2 GND )
+  (    3 +5V )
+  (    4 N-000023 )
+  (    5 GND )
+  (    6 N-000032 )
+  (    7 N-000022 )
+  (    8 +5V )
+ )
+ ( /51AB435E $noname  D2 Fotodioda_lewa {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000027 )
+ )
+ ( /50F198D9 $noname  R4 1,5M {Lib=R}
+  (    1 N-000027 )
+  (    2 +5V )
+ )
+ ( /50F19795 $noname  RV2 np100k_lewa {Lib=POT}
+  (    1 +5V )
+  (    2 N-000030 )
+  (    3 GND )
+ )
+ ( /50F18F99 $noname  C9 100uF {Lib=CP1}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /50F18F96 $noname  C8 100nF {Lib=C}
+  (    1 GND )
+  (    2 +5V )
+ )
+ ( /50F18F4B $noname  U1 LM7805 {Lib=LM7805}
+  (   VI N-000033 )
+  (   VO +5V )
+  (  GND GND )
+ )
+ ( /50F18F3F $noname  C2 100nF {Lib=C}
+  (    1 GND )
+  (    2 N-000033 )
+ )
+ ( /50F18F3D $noname  C1 220uF {Lib=CP1}
+  (    1 N-000033 )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U2 1
+ U2 2
+ U2 5
+ U4 1
+ U4 2
+ U4 5
+ RV2 3
+ D2 1
+ C1 2
+ C2 1
+ U1 GND
+ C8 1
+ C9 2
+ J3 8
+ J3 13
+ U3 4
+ R12 2
+ R7 1
+ U3 4
+ D3 1
+ R6 1
+ U5 9
+ RV3 3
+Net 2 "" ""
+ RV3 2
+ U3 6
+Net 3 "+5V" "+5V"
+ U2 3
+ R5 2
+ RV3 1
+ J3 YA
+ U3 8
+ U3 8
+ C9 1
+ C8 2
+ U1 VO
+ U5 10
+ R4 2
+ U4 8
+ U2 8
+ U4 3
+ RV2 1
+Net 5 "" ""
+ R6 2
+ D4 2
+Net 6 "" ""
+ U5 2
+ U3 7
+Net 9 "" ""
+ U5 1
+ U3 1
+Net 17 "" ""
+ R7 2
+ D5 2
+Net 18 "" ""
+ U5 17
+ D5 1
+ U4 4
+Net 22 "" ""
+ U2 7
+ J3 4
+Net 23 "" ""
+ U2 4
+ D4 1
+ U5 18
+Net 24 "" ""
+ U4 7
+ J3 6
+Net 25 "" ""
+ D3 2
+ U3 5
+ R5 1
+Net 26 "" ""
+ J3 YK
+ R12 1
+Net 27 "" ""
+ D2 2
+ U3 3
+ R4 1
+Net 30 "" ""
+ RV2 2
+ U3 2
+Net 31 "" ""
+ J3 5
+ U4 6
+Net 32 "" ""
+ U2 6
+ J3 3
+Net 33 "" ""
+ J3 1
+ U1 VI
+ C2 2
+ C1 1
+}
+#End

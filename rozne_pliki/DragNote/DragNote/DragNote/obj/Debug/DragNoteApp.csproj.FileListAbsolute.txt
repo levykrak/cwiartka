@@ -1,0 +1,18 @@
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.Properties.Resources.resources
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNoteApp.csproj.GenerateResource.Cache
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.exe.licenses
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.exe
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNoteApp.MainForm.resources
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragNote.exe.config
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragNote.exe
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragNote.pdb
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.pdb
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNoteApp.csprojResolveAssemblyReference.cache
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\bin\Debug\DragNote.exe.config
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\obj\Debug\DragNote.exe
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\obj\Debug\DragNote.pdb
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\obj\Debug\DragNoteApp.csprojResolveAssemblyReference.cache
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\obj\Debug\DragNoteApp.MainForm.resources
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\obj\Debug\DragNote.Properties.Resources.resources
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\obj\Debug\DragNoteApp.csproj.GenerateResource.Cache
+C:\Users\levy\Google Drive\cwiartka\rozne_pliki\DragNote\DragNote\DragNote\obj\Debug\DragNote.exe.licenses

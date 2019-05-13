@@ -1,0 +1,306 @@
+$regfile = "m328pdef.dat"
+$crystal = 16000000
+$baud = 9600                                                ' predkoœæ transmisji
+$hwstack = 128                                              ' rozmiar stosu sprzêtowego
+$swstack = 128                                              ' rozmiar stosu
+$framesize = 128                                            ' rozmiar ramki
+Const Debugging = 1                                         '1 info o programie  2 - przerwanie na seriala
+'********************* Konfiguracja dodatkowych bibliotek
+'AVR-DOS config
+$include "Config_MMC.bas"                                   'Konfiguracja karty SD
+$include "Config_AVR-DOS.BAS"                               'Biblioteka AVR-DOS
+'********************* Konfiguracja wejœæ i wyjœæ
+Open "comc.4:9600,8,n,1" For Output As #1                   'SDA
+Open "comc.5:9600,8,n,1" For Input As #2                    'SCL
+
+
+'********************* Deklaracje zmiennych
+
+Dim L As Byte
+
+'********************* Deklaracje zmiennych karty SD
+Dim Blad_sd As Bit
+Dim Zapisano As Bit
+Dim B As Word
+Dim Czas As Word
+Dim Tft As Byte , Pc As Byte , Pc_init As Bit
+Dim No_left As Byte , No_right As Byte
+Dim Fallstart_left As Bit , Fallstart_right As Bit
+'********************* Deklaracje podprogramów
+Declare Sub Settime(byval S1 As Byte , Byval M1 As Byte , Byval H1 As Byte , Byval D1 As Byte , Byval Month1 As Byte)       '***** ustawianie czasu
+Declare Sub Gettime()                                       'pobieranie czasu
+Declare Sub Wysw_godz                                       'wyœwietlanie czasu
+Declare Sub Write_to_sd()
+Declare Sub Pomiar
+Declare Sub Ds_odczyt
+'********************* Deklaracje Aliasów
+Config Portd.7 = Output
+Set Portd.7
+Sd_dioda Alias Portd.7
+
+
+Config Pind.2 = Input , Pind.3 = Input
+Config Int0 = Rising                                        'meta_lewa
+Config Int1 = Rising                                        'meta_prawa
+'Config Int0 = Change                                        'meta_lewa
+'Config Int1 = Change                                        'meta_prawa
+Meta_lewa Alias Pind.2
+Meta_prawa Alias Pind.3
+Config Pind.5 = Input                                       'pcint21
+Start_lewa Alias Pind.5
+Config Pind.4 = Input                                       'pcint20
+Start_prawa Alias Pind.4
+
+'Set Portd.5                                                 'pullup
+'Set Portd.4
+'Reset Portd.2
+'Reset Portd.3
+
+'1 oznacza przeciecie linii lub odlaczona bramke
+'0 mamy sygnal z nadajnika
+
+'################PCINTY##############
+Enable Pcint2
+Enable Int0
+Enable Int1
+'Pcmsk2 = &B00100000
+Pcmsk2 = &B00110000                                         'rejestry i inne pierdoly wektory
+On Pcint2 Isr_start                                         'start lewa+prawa
+On Int0 Isr_meta                                            'meta lewa+prawa
+On Int1 Isr_meta
+
+
+Config Timer1 = Timer , Prescale = 64
+Load Timer1 , 250
+On Timer1 1ms                                               'odliczanie 1 ms
+
+'********************* Konfiguracja SD/MMC
+'MMC -->ATMega32       atmega328p
+'DATA3 -> PORTB.4      PORTB.2             SS
+'DI    -> PORTB.5      PORTB.3             MOSI
+
+'CLK   -> PORTB.7      PORTB.5             SCK
+'DATA0 -> PORTB.6      PORTB.4             MISO
+
+'********************* Wartoœci pocz¹tkowe
+Zapisano = 0
+Blad_sd = 0
+
+
+No_left = 100
+No_right = 100
+
+
+
+Enable Interrupts
+Print "hello world"                                         'czyœæ ekran
+
+
+Reset Sd_dioda                                              'zapala
+Wait 1
+Set Sd_dioda                                                'gasi
+Wait 1
+
+'(
+If Start_lewa = 0 And Start_prawa = 0 Then                  'nie podlaczone
+Set Sd_dioda
+Else
+Reset Sd_dioda
+End If
+')
+
+Do
+'Print #1 , "dim=dim-5" ; Chr(&Hff) ; Chr(&Hff) ; Chr(&Hff); 'ustawienie sciemniania
+'Print #1 , "t1.txt=" ; Chr(&H22) ; "Ello " ; Chr(&H22) ; Chr(&Hff) ; Chr(&Hff) ; Chr(&Hff);       'wyslanie textu
+   Pc = Inkey()
+   Tft = Inkey(#2)
+   If Pc = 32 Then                                          'jesli SHIFT IN HEX 0F (15) to kontrola PC i blokujemy wyswietlacz
+      Pc_init = 1
+      Reset Sd_dioda
+      Print #1 , "page pc" ; Chr(&Hff) ; Chr(&Hff) ; Chr(&Hff);
+   Elseif Pc = 27 Then
+      Pc_init = 0
+      Set Sd_dioda
+      Print #1 , "page page0" ; Chr(&Hff) ; Chr(&Hff) ; Chr(&Hff);
+   End If
+
+   If Tft = 32 Then
+      Set Sd_dioda
+      Gosub Cwiartka
+   End If
+
+'(
+   K = Inkey(#2)
+   If K > 0 Then
+   Print K
+   End If
+')
+'Waitms 100
+
+'Call Write_to_sd
+'Toggle Sd_dioda
+'Print #1 , "drugi com"
+Loop
+End
+
+
+
+'***********************  Obs³uga cwiartki ***********************
+Cwiartka:
+   Do
+      Tft = Inkey(#2)
+
+      If No_left = 100 Or No_right = 100 Then               'obsluga nr startowych
+         Do
+            Tft = Inkey(#2)
+
+            If Tft = "L" Then
+               #if Debugging = 1
+                  Print "czekam na lewa strone"
+               #endif
+
+               No_left = Waitkey(#2)
+
+               #if Debugging = 1
+                  Print "lewa: " ; No_left
+               #endif
+
+            Elseif Tft = "P" Then
+               No_right = Waitkey(#2)
+               #if Debugging = 1
+                  Print "prawa: " ; No_right
+               #endif
+
+            End If
+
+         Loop Until No_left < 100 And No_right < 100
+         #if Debugging = 1
+            Print "wpisane nr startowe"
+         #endif
+
+      End If
+
+      If Tft = "S" Then                                     'sekwencja startowa
+         If No_left = 100 Or No_right = 100 Then            'jesli nie wpisany nr
+                                                             'wroc do page wpisywania numerow
+
+         Elseif No_left = 0 And No_right = 0 Then           'jesli zawodnicy maja obydwaj nr 0
+                                                             'wroc do page wpisywania numerow
+
+         Else                                               'rozpoczynamy odliczanie
+            Czas = 0
+            Load Timer1 , 250                               'wlaczamy timer1
+            Enable Timer1
+
+            Do
+               Tft = Inkey(#2)
+
+               Select Case Czas
+                  Case 1000 : Toggle Sd_dioda               'zapal pierwsza lampe
+                  Case 2000 : Toggle Sd_dioda               'zapal 2 lampe
+                  Case 3000 : Toggle Sd_dioda               'zapal 3 lampe
+                  Case 4000 : Toggle Sd_dioda               'zapal 4 lampe
+                  Case 25000 : Tft = "C"                    ' po 25 - 5 sekundach wyjdz z cwiartki
+               End Select
+
+
+            Loop Until Tft = "C"                            'or zakonczony przejazd dopisac E dla zapisani
+
+
+            Disable Timer1
+            Czas = 0
+            No_left = 100
+            No_right = 100
+            'page do wpisywania numerow
+         End If
+      End If
+
+
+'Print "pc: " ; Pc ; " tft: " ; Tft ; " podprogram cwiartka"
+'Wait 1
+   Loop Until Tft = 27 Or Pc = 27
+   Print "wychodze z cwiartki"
+   No_left = 100
+   No_right = 100
+Return
+
+'***********************  Obs³uga zapisu na SD
+Sub Write_to_sd()                                           ''()
+   Local Errorcode As Byte
+   Gbdriveerror = Driveinit()
+   If Gbdriveerror = 0 Then
+      Errorcode = Initfilesystem(1)
+      If Errorcode <> 0 Then
+         Blad_sd = 1
+      Else
+         Reset Sd_dioda                                     'Zapala diodê LED
+         Open "pomiar.txt" For Append As #2                 'otwórz plik pomiar.txt aby dopisaæ dane
+         Write #2 , "To Ja" "cos tam" "Diskfree = " "uolele"       'zapisz dane: data, czas , odczyt temperatury
+         Flush #2                                           'zapisz bufor pliku na karcie SD
+         Close #2                                           'zamknij kana³ transmisji sprzêtowego urz¹dzenia
+         Blad_sd = 0                                        'ustaw zmienna na 0
+         Set Sd_dioda                                       'zgaœ diodê LED
+      End If
+   Else
+      Reset Sd_dioda                                        'zapala diodê LED
+      Blad_sd = 1
+   End If
+End Sub                                                     ' Write_to_sd()
+'*********************** Podprogram okreœlaj¹cy kiedy dokonaæ pomiarów oraz zapisu na SD
+
+
+Isr_start:
+   If Start_lewa = 1 Then                                   'przeciecie startu lewa
+      If Czas < 5000 Then                                   'fallstart
+         Fallstart_left = 1
+      End If
+
+      #if Debugging = 2
+         Print "start_lewa = 1 ";
+      #endif
+   End If
+
+   If Start_prawa = 1 Then                                  'przeciecie startu prawa
+      If Czas < 5000 Then                                   'fallstart
+         Fallstart_right = 1
+      End If
+
+
+      #if Debugging = 2
+         Print "start_prawa = 1 ";
+      #endif
+   End If
+
+
+
+   #if Debugging = 2
+      Print " "
+   #endif
+Return
+
+Isr_meta:
+   If Meta_lewa = 1 Then
+
+      #if Debugging = 2
+         Print "meta_lewa = 1 ";
+      #endif
+   End If
+   If Meta_prawa = 1 Then
+
+      #if Debugging = 2
+         Print "meta_prawa = 1 ";
+      #endif
+   End If
+
+   #if Debugging = 2
+      Print " "
+   #endif
+Return
+
+
+
+'############# liczenie 1 ms ##################
+1ms:
+   Load Timer1 , 250
+   Incr Czas
+Return

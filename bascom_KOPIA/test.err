@@ -1,0 +1,3 @@
+Error : 31    Line :   168   Invalid data type [[0011] 0[CZAS]]  , in File : C:\Users\levy\Google Drive\cwiartka\bascom\test.bas
+Error : 15    Line :   168   Wrong data type [CZAS]  , in File : C:\Users\levy\Google Drive\cwiartka\bascom\test.bas
+Error : 350   Line :   168   Interrupt needs return [[ 13]]  , in File : C:\Users\levy\Google Drive\cwiartka\bascom\test.bas

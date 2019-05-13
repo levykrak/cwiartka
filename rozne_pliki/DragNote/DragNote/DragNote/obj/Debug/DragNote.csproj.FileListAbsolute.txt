@@ -1,0 +1,12 @@
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragNote.exe.config
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragData.mdf
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragData_log.ldf
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragNote.exe
+D:\Projekty\DragNote\DragNote\DragNote\bin\Debug\DragNote.pdb
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.csprojResolveAssemblyReference.cache
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.MainForm.resources
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.Properties.Resources.resources
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.csproj.GenerateResource.Cache
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.exe
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.pdb
+D:\Projekty\DragNote\DragNote\DragNote\obj\Debug\DragNote.exe.licenses

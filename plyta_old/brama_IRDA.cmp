@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-10-21 20:27:06
+
+BeginCmp
+TimeStamp = /50F18F3D;
+Reference = C1;
+ValeurCmp = 220uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F3F;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F96;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F99;
+Reference = C9;
+ValeurCmp = 100uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5202B112;
+Reference = J3;
+ValeurCmp = RJ45-TRANSFO;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5446A0C5;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = 3PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5446A0DF;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = 3PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5202B334;
+Reference = R12;
+ValeurCmp = 470;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /520F4DD8;
+Reference = R13;
+ValeurCmp = 100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /520F4DED;
+Reference = r14;
+ValeurCmp = 100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F18F4B;
+Reference = U1;
+ValeurCmp = LM7805;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4B39;
+Reference = U2;
+ValeurCmp = SN75176_lewa;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AB4E03;
+Reference = U4;
+ValeurCmp = SN75176_prawa;
+IdModule  = ;
+EndCmp
+
+EndListe
